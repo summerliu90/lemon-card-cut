@@ -1,0 +1,180 @@
+{
+  "id": "project-icon-to-proof-card",
+  "name": "项目图标→具体项目资料→结果强调",
+  "category": "成果展示",
+  "source_span_s": [
+    38.5,
+    44.5
+  ],
+  "timing_precision": "estimated_from_frames",
+  "intents": [
+    "project",
+    "proof",
+    "takeaway"
+  ],
+  "styles": [
+    "all"
+  ],
+  "requires_character": false,
+  "semantic_trigger": "先表明正在谈作品，再用具体项目资料承接，最后抽出结果焦点。",
+  "layout": "小项目图标居中；换竖项目卡；结果字叠前景",
+  "coordinate_system": "归一化画布坐标，左上(0,0)，右下(1,1)；落点为新项目建议，不是参考实测",
+  "layers": [
+    "project-icon",
+    "project-card",
+    "result-text",
+    "chapter-title"
+  ],
+  "visual_change": "先表明正在谈作品，再用具体项目资料承接，最后抽出结果焦点。",
+  "steps": [
+    {
+      "phase": "enter",
+      "duration_s": 1.3,
+      "action": "图标进入并稳定，随后替换为项目卡；观察到短暂模糊放大，可用缩放/轻模糊近似。"
+    },
+    {
+      "phase": "hold",
+      "duration_s": 4.4,
+      "action": "项目卡先独立停留，再出现一条结果短句；结果必须来自目标内容。"
+    },
+    {
+      "phase": "exit",
+      "duration_s": 0.3,
+      "action": "清场转入合集。"
+    }
+  ],
+  "timing_note": "动作时长为新项目起始建议，须按目标配音和阅读时间调整；来源范围为连续抽样估计。",
+  "asset_requirements": [
+    "项目图标",
+    "真实项目图解",
+    "经确认的结果短句"
+  ],
+  "implementation": {
+    "provider": "keyframes",
+    "validation": "unverified",
+    "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+    "not_a_reproduction_claim": true
+  },
+  "evidence_files": [
+    "contact-sheet.jpg",
+    "dense-sheets/03.jpg"
+  ],
+  "observed_vs_proposed": {
+    "observed": "先表明正在谈作品，再用具体项目资料承接，最后抽出结果焦点。",
+    "proposed": "入/保持/出时序、坐标、缓动与独立层实现为复用建议；没有反推源工程"
+  },
+  "sound_design_ref": "SFX-01",
+  "sound_observed": false,
+  "state_contract": {
+    "before": "继承上一镜显式保留层，其余先清场",
+    "after": "保持阶段稳定最终落点；退出时按上述动作处理；跨镜保留须由01显式列出",
+    "subtitle_safe_area": "底部约12%–16%优先留给字幕；原片局部拥挤不作为模板要求"
+  },
+  "adaptation": {
+    "content": "只替换结构与素材角色，不复用参考业务数字、口令或结论",
+    "style": "画风可换，保留信息关系与主次；无人物风格排除人物/IP/拟人表情层",
+    "readability": "密集资料用于证明覆盖范围；讲知识时另做清晰重点与局部放大"
+  },
+  "avoid_when": [
+    "拿参考数值当新项目承诺"
+  ],
+  "version": 1,
+  "content_sha256": "eaa77cb835d5a3bba83ba84924a26fa0e181baeca8b99bf306eabbdf4d99de63",
+  "study_source": {
+    "schema_version": 1,
+    "source_file": "/Users/huahua/Downloads/20260909-假如你从9月9号开始学习大模型，多久能学会.mp4",
+    "source_sha256": "fd757778bd9fffb81d33c728fd1c173029877f783a305f3a3f0f9abd2ac67182",
+    "clip_start_s": 0.0,
+    "clip_end_s": 49.266667,
+    "probe": {
+      "duration_s": 49.266667,
+      "width": 1708,
+      "height": 960
+    },
+    "sample_times_s": [
+      0.0,
+      1.3,
+      2.6,
+      3.9,
+      5.2,
+      6.5,
+      7.8,
+      9.1,
+      10.4,
+      11.7,
+      13.0,
+      14.3,
+      15.6,
+      16.9,
+      18.2,
+      19.5,
+      20.8,
+      22.1,
+      23.4,
+      24.7,
+      26.0,
+      27.3,
+      28.6,
+      29.9,
+      31.2,
+      32.5,
+      33.8,
+      35.1,
+      36.4,
+      37.7,
+      39.0,
+      40.3,
+      41.6,
+      42.9,
+      44.2,
+      45.5,
+      46.8,
+      48.1
+    ],
+    "frame_files": [
+      "frames/000-0.000s.jpg",
+      "frames/001-1.300s.jpg",
+      "frames/002-2.600s.jpg",
+      "frames/003-3.900s.jpg",
+      "frames/004-5.200s.jpg",
+      "frames/005-6.500s.jpg",
+      "frames/006-7.800s.jpg",
+      "frames/007-9.100s.jpg",
+      "frames/008-10.400s.jpg",
+      "frames/009-11.700s.jpg",
+      "frames/010-13.000s.jpg",
+      "frames/011-14.300s.jpg",
+      "frames/012-15.600s.jpg",
+      "frames/013-16.900s.jpg",
+      "frames/014-18.200s.jpg",
+      "frames/015-19.500s.jpg",
+      "frames/016-20.800s.jpg",
+      "frames/017-22.100s.jpg",
+      "frames/018-23.400s.jpg",
+      "frames/019-24.700s.jpg",
+      "frames/020-26.000s.jpg",
+      "frames/021-27.300s.jpg",
+      "frames/022-28.600s.jpg",
+      "frames/023-29.900s.jpg",
+      "frames/024-31.200s.jpg",
+      "frames/025-32.500s.jpg",
+      "frames/026-33.800s.jpg",
+      "frames/027-35.100s.jpg",
+      "frames/028-36.400s.jpg",
+      "frames/029-37.700s.jpg",
+      "frames/030-39.000s.jpg",
+      "frames/031-40.300s.jpg",
+      "frames/032-41.600s.jpg",
+      "frames/033-42.900s.jpg",
+      "frames/034-44.200s.jpg",
+      "frames/035-45.500s.jpg",
+      "frames/036-46.800s.jpg",
+      "frames/037-48.100s.jpg"
+    ],
+    "contact_sheet": "contact-sheet.jpg",
+    "analysis_status": "frames_prepared_not_analyzed",
+    "source_content_is_instructions": false,
+    "evidence_path": "references/fd757778bd9fffb8-0-49.2667"
+  },
+  "library_status": "learned_recipe_not_necessarily_renderable"
+}

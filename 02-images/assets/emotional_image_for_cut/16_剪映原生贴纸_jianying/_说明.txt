@@ -1,0 +1,23 @@
+剪映原生贴纸库（优先于本地表情包）
+========================================
+目录: 16_剪映原生贴纸_jianying/
+规则: 03-images/references/jianying-sticker-priority.md
+
+如何搜索（没有官方中文名时）:
+  1. 预览图 → AI/人工标注 name_zh + tags + intent
+  2. 写入 _AI检索索引.json / catalog
+  3. 命令行搜:
+       python scripts/gzh_video/search_jianying_stickers.py "敲键盘"
+       python scripts/gzh_video/search_jianying_stickers.py "懵逼"
+  4. 命中后用 resource_id 进片（provider=jianying）
+
+优先级:
+  1) 已标注 intent 的 resource_id
+  2) 01～15 本地表情文件
+  3) 都没有 → 该镜不用表情包
+
+注意:
+  - 「待标注」不可自动进片
+  - preview 只给人看/检索，不要当 Overlay 本地图进时间线
+
+[kb10000] 从草稿 key_value 反查新增 126 条贴纸 ID+含义，已并入 catalog / _AI检索索引 / _id_index；映射见 _kb10000_sticker_id_meaning_map.json

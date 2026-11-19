@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "min_atomic_gap_us": 4000000,
+  "max_atomic_starts_per_10s": 2,
+  "max_subtitle_sfx_per_30s": 2,
+  "max_unintentional_quiet_gap_us": 35000000,
+  "target_anchor_gap_min_us": 18000000,
+  "target_anchor_gap_max_us": 30000000,
+  "typewriter_exclusive_padding_us": 1000000,
+  "typewriter_sound_mode": "body_only_per_card",
+  "typewriter_volume": 0.1,
+  "subtitle_sfx_volume": 0.14,
+  "ordinary_sfx_max_duration_us": 800000,
+  "strong_sfx_max_duration_us": 1200000
+}

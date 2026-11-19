@@ -1,0 +1,2058 @@
+{
+  "version": 2,
+  "purpose": "lemon-card-cut 02-images语义选材库；候选需检查预览和本地可用性，不能仅凭索引标记为已验证。",
+  "selection_policy": {
+    "allow_empty": true,
+    "forbid_random_fallback": true,
+    "require_matched_text": true,
+    "require_match_reason": true,
+    "forbid_unlabeled_jianying": true,
+    "interaction_guard": {
+      "rule": "点赞、收藏、关注、转发、666、三连等互动型素材，必须由当前口播片段中的对应明确文字触发；禁止用成功、正向、CTA等泛化语义代替文字命中。",
+      "requires_explicit_spoken_text": true,
+      "terms": [
+        "点赞",
+        "收藏",
+        "关注",
+        "转发",
+        "666",
+        "六六六",
+        "三连"
+      ]
+    },
+    "rule_doc": "references/styles-and-stickers.md",
+    "note": "沿用源库意图与候选；本技能不固定贴纸数量或占比。原生贴纸须验证渲染；未验证保留unresolved，不假定可用。按项目风格与01计划选本地或原生资源。"
+  },
+  "intents": {
+    "cta_666": {
+      "description": "评论区暗号 666；不是泛化的夸奖",
+      "triggers": [
+        "666",
+        "六六六",
+        "扣666",
+        "留个666"
+      ],
+      "candidates": [
+        "assets/emotional_image_for_cut/05_夸奖点赞_很厉害/054_夸奖点赞_很厉害_666.gif",
+        "assets/emotional_image_for_cut/05_夸奖点赞_很厉害/059_夸奖点赞_很厉害_666_搞怪.gif",
+        "assets/emotional_image_for_cut/05_夸奖点赞_很厉害/061_夸奖点赞_很厉害_666_神奇.gif",
+        "assets/emotional_image_for_cut/05_夸奖点赞_很厉害/063_夸奖点赞_很厉害_666_滚动.gif",
+        "assets/emotional_image_for_cut/05_夸奖点赞_很厉害/053_夸奖点赞_很厉害_666_厉害_吊床.gif"
+      ],
+      "jianying_candidates": [
+        {
+          "resource_id": "7591419915328884021",
+          "name": "Emoji EN Two Thumbs Up",
+          "meaning": "评论区六六六的正向互动反馈",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6927160220351319308",
+          "name": "粉描边666手势",
+          "meaning": "手绘六手势粉666夸赞互动",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/106_粉描边666手势_6927160220351319308.png",
+          "tags": [
+            "666",
+            "手势",
+            "粉",
+            "厉害",
+            "夸奖"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6991081721374477599",
+          "name": "黄脸666六手势",
+          "meaning": "得意黄脸头顶666引导扣六",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/104_黄脸666六手势_6991081721374477599.png",
+          "tags": [
+            "666",
+            "得意",
+            "手势",
+            "赞",
+            "厉害"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7000212345414798600",
+          "name": "得意emoji红666",
+          "meaning": "得意脸红666手势表佩服点赞",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/105_得意emoji红666_7000212345414798600.png",
+          "tags": [
+            "666",
+            "得意",
+            "点赞",
+            "牛逼",
+            "赞"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7011253107447385381",
+          "name": "太给力了握拳",
+          "meaning": "握拳欢呼太给力了强烈赞赏",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/097_太给力了握拳_7011253107447385381.gif",
+          "tags": [
+            "太给力了",
+            "赞",
+            "喝彩",
+            "激动",
+            "awesome"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7011788246346779940",
+          "name": "白猫竖排666",
+          "meaning": "可爱猫举爪配竖排666引导互动",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/107_白猫竖排666_7011788246346779940.gif",
+          "tags": [
+            "猫咪",
+            "666",
+            "点赞",
+            "可爱",
+            "互动"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7016666874935069982",
+          "name": "给力嗷铁铁点赞",
+          "meaning": "熊猫头给力嗷铁铁黄拇指点赞",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/094_给力嗷铁铁点赞_7016666874935069982.png",
+          "tags": [
+            "给力",
+            "铁铁",
+            "点赞",
+            "666",
+            "熊猫头"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7073121770194111775",
+          "name": "拇指粉666闪星",
+          "meaning": "拇指粉666闪星引导扣666",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/109_拇指粉666闪星_7073121770194111775.gif",
+          "tags": [
+            "点赞",
+            "666",
+            "拇指",
+            "闪星",
+            "厉害"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7090479911923748132",
+          "name": "赛博霓虹蓝666",
+          "meaning": "霓虹蓝666夸赞出色表现",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/110_赛博霓虹蓝666_7090479911923748132.png",
+          "tags": [
+            "666",
+            "霓虹",
+            "蓝色",
+            "赞",
+            "赛博"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7100070853173447970",
+          "name": "派大星给力嗷",
+          "meaning": "派大星挥拳给力嗷热情支持",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/098_派大星给力嗷_7100070853173447970.png",
+          "tags": [
+            "派大星",
+            "给力",
+            "加油",
+            "支持",
+            "666"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7103803368623082765",
+          "name": "佩服三连666",
+          "meaning": "佩服三连厉害可以666引导互动",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/100_佩服三连666_7103803368623082765.png",
+          "tags": [
+            "佩服三连",
+            "厉害",
+            "可以",
+            "666",
+            "熊猫头"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7103849432315186432",
+          "name": "老铁666双OK",
+          "meaning": "老铁666双OK引导点赞夸奖",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/102_老铁666双OK_7103849432315186432.gif",
+          "tags": [
+            "老铁",
+            "666",
+            "OK",
+            "点赞",
+            "夸奖"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7104370366247652622",
+          "name": "胖虎给力赞赏",
+          "meaning": "胖虎自信给力夸赞操作厉害",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/095_胖虎给力赞赏_7104370366247652622.png",
+          "tags": [
+            "给力",
+            "胖虎",
+            "赞",
+            "自信",
+            "厉害"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7134561411337882888",
+          "name": "红底拇指给力",
+          "meaning": "红底大拇指给力表认可赞赏",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/096_红底拇指给力_7134561411337882888.png",
+          "tags": [
+            "给力",
+            "点赞",
+            "拇指",
+            "好评",
+            "666"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7209158357222034727",
+          "name": "眨眼拇指给力泡",
+          "meaning": "眨眼点赞爆炸泡给力夸赞",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/099_眨眼拇指给力泡_7209158357222034727.gif",
+          "tags": [
+            "给力",
+            "点赞",
+            "拇指",
+            "黄色",
+            "赞"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7209818135900196099",
+          "name": "多层粉蓝绿666",
+          "meaning": "多层彩色666强调厉害互动",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/115_多层粉蓝绿666_7209818135900196099.gif",
+          "tags": [
+            "666",
+            "厉害",
+            "互动",
+            "弹幕",
+            "赞"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7215457426890427648",
+          "name": "熊猫头计算器666",
+          "meaning": "计算器亮666夸赞操作牛逼",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/101_熊猫头计算器666_7215457426890427648.png",
+          "tags": [
+            "666",
+            "计算器",
+            "熊猫头",
+            "厉害",
+            "赞赏"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7252384394349006136",
+          "name": "柴犬六手势",
+          "meaning": "柴犬配六手势表很溜牛逼",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/103_柴犬六手势_7252384394349006136.png",
+          "tags": [
+            "柴犬",
+            "666",
+            "六",
+            "厉害",
+            "给力"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7292840802399587603",
+          "name": "粉字666六手势",
+          "meaning": "粉666配六手势刷屏赞赏",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/113_粉字666六手势_7292840802399587603.png",
+          "tags": [
+            "666",
+            "手势",
+            "粉",
+            "点赞",
+            "牛逼"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7376690926221069604",
+          "name": "黄3D六六六手势",
+          "meaning": "黄立体666六手势动态赞爆",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/116_黄3D六六六手势_7376690926221069604.png",
+          "tags": [
+            "666",
+            "手势",
+            "黄",
+            "3D",
+            "赞"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7530166339076443417",
+          "name": "3D六手势蓝框666",
+          "meaning": "3D六手势蓝框666引导互动",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/112_3D六手势蓝框666_7530166339076443417.png",
+          "tags": [
+            "666",
+            "手势",
+            "3D",
+            "点赞",
+            "厉害"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7647473045711670552",
+          "name": "粉边黄橙666",
+          "meaning": "动感黄橙666表赞赏厉害",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/111_粉边黄橙666_7647473045711670552.png",
+          "tags": [
+            "666",
+            "牛逼",
+            "点赞",
+            "粉边",
+            "活力"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7649013868341021976",
+          "name": "放射线黄粉666",
+          "meaning": "放射线666引导评论扣六",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/114_放射线黄粉666_7649013868341021976.png",
+          "tags": [
+            "666",
+            "给力",
+            "点赞",
+            "互动",
+            "赞"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7680446438819712280",
+          "name": "六百六十六点赞",
+          "meaning": "红条六百六十六拇指赞赏",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/108_六百六十六点赞_7680446438819712280.png",
+          "tags": [
+            "六百六十六",
+            "666",
+            "点赞",
+            "给力",
+            "赞赏"
+          ],
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "cta_claim_resource": {
+      "description": "免费领取、带走资料；非现金福利优先与 666 暗号合并表达",
+      "triggers": [
+        "免费领",
+        "领走",
+        "拿走",
+        "带走",
+        "福利来了",
+        "送给你"
+      ],
+      "forbid_when": [
+        "红包",
+        "现金",
+        "奖金"
+      ],
+      "candidates": [
+        "assets/emotional_image_for_cut/13_福利彩蛋_关注三连/014_福利彩蛋_关注三连_惊不惊喜意不意外_彩蛋.gif"
+      ],
+      "note": "现有 13 类大多是红包语义。口播只是免费文档/资料时，不使用红包素材。",
+      "jianying_candidates": [
+        {
+          "resource_id": "7291476131155397942",
+          "name": "惊喜福利",
+          "meaning": "惊喜福利黄字引导领取奖励",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/087_惊喜福利_7291476131155397942.png",
+          "tags": [
+            "惊喜",
+            "福利",
+            "领取",
+            "感叹号",
+            "促销"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7293828960352324905",
+          "name": "购物礼包开箱",
+          "meaning": "开箱礼包SALE红包引导领礼",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/093_购物礼包开箱_7293828960352324905.png",
+          "tags": [
+            "礼包",
+            "礼物盒",
+            "SALE",
+            "红包",
+            "领福利"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7399501054443834662",
+          "name": "福利来袭",
+          "meaning": "黄条福利来袭提示资源发放",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/090_福利来袭_7399501054443834662.png",
+          "tags": [
+            "福利来袭",
+            "领取",
+            "黄条",
+            "星星",
+            "爱心"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7430703264435375414",
+          "name": "抢福利小喇叭",
+          "meaning": "喇叭喊抢福利引导点击领取",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/091_抢福利小喇叭_7430703264435375414.png",
+          "tags": [
+            "抢福利",
+            "喇叭",
+            "优惠",
+            "活动",
+            "CTA"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7492337384780991796",
+          "name": "宠粉福利",
+          "meaning": "宠粉福利爆炸框吸引粉丝领取",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/092_宠粉福利_7492337384780991796.gif",
+          "tags": [
+            "宠粉",
+            "福利",
+            "抽奖",
+            "粉丝",
+            "促销"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7500940898247904574",
+          "name": "粉爆福利感叹",
+          "meaning": "粉爆炸框福利!提示领粉丝福利",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/089_粉爆福利感叹_7500940898247904574.png",
+          "tags": [
+            "福利",
+            "粉色",
+            "爆炸框",
+            "领取",
+            "抽奖"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7539057914510642486",
+          "name": "福利拉满",
+          "meaning": "粉蓝字福利拉满引导领资源",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/086_福利拉满_7539057914510642486.gif",
+          "tags": [
+            "福利",
+            "拉满",
+            "领取",
+            "优惠",
+            "星星"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7579150192864185651",
+          "name": "超值福利",
+          "meaning": "超值福利黄条引导领优惠资源",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/088_超值福利_7579150192864185651.png",
+          "tags": [
+            "超值",
+            "福利",
+            "领取",
+            "爱心",
+            "手绘"
+          ],
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "transition_confidence": {
+      "description": "稳妥、靠谱、这才对等承上启下的判断短语",
+      "triggers": [
+        "更稳妥",
+        "稳了",
+        "妥了",
+        "靠谱",
+        "这才对",
+        "还得是"
+      ],
+      "candidates": [
+        "assets/emotional_image_for_cut/05_夸奖点赞_很厉害/062_夸奖点赞_很厉害_妥妥的_鼓掌_斗图.gif",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/036_通用反应_垫场_还得是你.jpg"
+      ],
+      "note": "只覆盖过渡短语，进入后续方法和技术解释前必须结束。"
+    },
+    "helpless_resigned": {
+      "description": "无奈、心累、被反复折腾",
+      "triggers": [
+        "无奈",
+        "没办法",
+        "服了",
+        "心累",
+        "又来了",
+        "真没辙",
+        "只能苦笑",
+        "开始自闭",
+        "不稳定"
+      ],
+      "candidates": [
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/034_通用反应_垫场_强颜欢笑.jpg",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/035_通用反应_垫场_ok的_我没事.jpg",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/040_通用反应_垫场_mfine.jpg",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/043_通用反应_垫场_求求老天爷别再搞我了.jpg",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/096_通用反应_垫场_奄奄一息.jpg",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/098_通用反应_垫场_开始自闭.jpg"
+      ],
+      "jianying_candidates": [
+        {
+          "resource_id": "6946487305678998797",
+          "name": "笑一下蒜了",
+          "meaning": "谐音梗：笑一下算了/无奈放过",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/007_笑一下蒜了_6946487305678998797.png",
+          "tags": [
+            "蒜",
+            "算了",
+            "谐音",
+            "无奈",
+            "强颜欢笑",
+            "笑一下"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7596320676676488510",
+          "name": "粉兔扶额无语",
+          "meaning": "扶额/头疼/无语崩溃感",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/008_粉兔扶额无语_7596320676676488510.png",
+          "tags": [
+            "粉兔",
+            "扶额",
+            "无语",
+            "头疼",
+            "心累",
+            "三条竖线"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7010788945055321352",
+          "name": "疲惫加班鼠",
+          "meaning": "深夜加班/黑眼圈打工人无奈盯屏",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/009_疲惫加班鼠_7010788945055321352.gif",
+          "tags": [
+            "加班",
+            "疲惫",
+            "无奈",
+            "黑眼圈",
+            "电脑",
+            "打工人",
+            "burnout"
+          ],
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "awkward_silence": {
+      "description": "答不上来、没讲清楚、短暂停顿或尴尬冷场",
+      "triggers": [
+        "答不上来",
+        "没讲清楚",
+        "停了一下",
+        "想了一会儿",
+        "沉默",
+        "尴尬",
+        "冷场",
+        "闭麦"
+      ],
+      "candidates": [
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/027_通用反应_垫场_好_我闭麦.jpg",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/033_通用反应_垫场_带牙套_emoji_滴汗表情包_带牙_emo.jpg",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/085_通用反应_垫场_就让我冷场是吧.jpg",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/088_通用反应_垫场_就让我尴尬是吧.jpg"
+      ],
+      "jianying_candidates": [
+        {
+          "resource_id": "6974743226825624863",
+          "name": "蘑菇头省略号无语",
+          "meaning": "……无语/嫌弃沉默",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/006_蘑菇头省略号无语_6974743226825624863.png",
+          "tags": [
+            "蘑菇头",
+            "省略号",
+            "无语",
+            "尴尬",
+            "沉默",
+            "...."
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7177280344020749620",
+          "name": "喜羊羊流汗尴尬",
+          "meaning": "尴尬流汗/冷场",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/005_喜羊羊流汗尴尬_7177280344020749620.png",
+          "tags": [
+            "喜羊羊",
+            "流汗",
+            "尴尬",
+            "无语",
+            "羊"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7603992139210607896",
+          "name": "粉兔呆滞脸",
+          "meaning": "面无表情/呆滞/尴尬冷场",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/003_粉兔呆滞脸_7603992139210607896.png",
+          "tags": [
+            "粉兔",
+            "呆滞",
+            "尴尬",
+            "无语",
+            "冷场"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7012785022344105247",
+          "name": "熊猫头尴尬龇牙",
+          "meaning": "尴尬龇牙冷场/yikes反应",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/030_熊猫头尴尬龇牙_7012785022344105247.png",
+          "tags": [
+            "熊猫头",
+            "尴尬",
+            "龇牙",
+            "冷场",
+            "yikes"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7209613553991568701",
+          "name": "白猫呆滞愣住",
+          "meaning": "呆滞愣住/尴尬无声/一时语塞",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/016_白猫呆滞愣住_7209613553991568701.png",
+          "tags": [
+            "白猫",
+            "呆滞",
+            "愣住",
+            "尴尬",
+            "无语",
+            "震惊"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7660422780755840280",
+          "name": "黑屏中心小白点",
+          "meaning": "偏装饰/慎用：极简白点表寂静无语",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/082_黑屏中心小白点_7660422780755840280.gif",
+          "tags": [
+            "白点",
+            "黑屏",
+            "寂静",
+            "无语",
+            "极简",
+            "装饰"
+          ],
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "confused": {
+      "description": "纯疑惑、看不懂、搞不清楚",
+      "triggers": [
+        "懵了",
+        "看不懂",
+        "不知道",
+        "该怎么办",
+        "搞不清楚",
+        "水太深",
+        "一脸茫然"
+      ],
+      "candidates": [
+        "assets/emotional_image_for_cut/02_懵逼疑惑_看不懂/009_懵逼疑惑_看不懂_o脸茫然_On_0.jpg",
+        "assets/emotional_image_for_cut/02_懵逼疑惑_看不懂/013_懵逼疑惑_看不懂_No脸茫然.jpg",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/050_通用反应_垫场_该怎么办呢.gif",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/068_通用反应_垫场_水太深_猫咪表情包_水太深.jpg"
+      ],
+      "jianying_candidates": [
+        {
+          "resource_id": "7233769756925480198",
+          "name": "疑问不解",
+          "meaning": "面试官抛出问题，用疑问表情承接提问语气",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7257766531277409597",
+          "name": "黑猫加载圈懵逼",
+          "meaning": "大脑缓冲/加载中/一脸懵",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/001_黑猫加载圈懵逼_7257766531277409597.png",
+          "tags": [
+            "黑猫",
+            "加载",
+            "缓冲",
+            "懵逼",
+            "疑惑",
+            "loading",
+            "buffering",
+            "问号感"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6895939042345487624",
+          "name": "满屏文字雨问号",
+          "meaning": "满屏问号文字雨极度懵逼",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/076_满屏文字雨问号_6895939042345487624.png",
+          "tags": [
+            "满屏问号",
+            "困惑",
+            "懵逼",
+            "不解",
+            "what"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6922015253014318350",
+          "name": "白小人靠红问号",
+          "meaning": "靠大红问号沉思找答案",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/056_白小人靠红问号_6922015253014318350.png",
+          "tags": [
+            "思考",
+            "问号",
+            "困惑",
+            "为什么",
+            "难题"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6969751180830313759",
+          "name": "杰瑞满头问号",
+          "meaning": "杰瑞挠头满屏问号完全不懂",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/050_杰瑞满头问号_6969751180830313759.png",
+          "tags": [
+            "杰瑞",
+            "问号",
+            "困惑",
+            "挠头",
+            "不解"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6977285431717088543",
+          "name": "熊猫吃饭四问号",
+          "meaning": "边吃边冒四问号迷惑吃瓜",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/057_熊猫吃饭四问号_6977285431717088543.png",
+          "tags": [
+            "熊猫头",
+            "吃饭",
+            "问号",
+            "迷惑",
+            "吃瓜"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7002831186099768606",
+          "name": "黑人问号疑惑脸",
+          "meaning": "经典黑人问号对荒谬言论懵逼怀疑",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/069_黑人问号疑惑脸_7002831186099768606.png",
+          "tags": [
+            "黑人问号",
+            "疑惑",
+            "问号",
+            "懵逼",
+            "尼克杨"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7012034468424715551",
+          "name": "立体黄油问号",
+          "meaning": "黄油立体问号表达疑惑提问",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/081_立体黄油问号_7012034468424715551.gif",
+          "tags": [
+            "问号",
+            "黄色",
+            "疑惑",
+            "不解",
+            "迷茫"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7021766375521701152",
+          "name": "熊猫头抱头问号",
+          "meaning": "抱头冒问号懵逼听不懂",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/055_熊猫头抱头问号_7021766375521701152.png",
+          "tags": [
+            "熊猫头",
+            "问号",
+            "疑惑",
+            "懵逼",
+            "抱头"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7026695969676725512",
+          "name": "亮黄果冻问号",
+          "meaning": "立体黄问号表疑问不解",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/078_亮黄果冻问号_7026695969676725512.gif",
+          "tags": [
+            "问号",
+            "黄色",
+            "疑惑",
+            "立体",
+            "why"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7029188886899330335",
+          "name": "黄脸啥问号",
+          "meaning": "啥？大眼张嘴完全没听懂",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/038_黄脸啥问号_7029188886899330335.gif",
+          "tags": [
+            "啥",
+            "疑惑",
+            "问号",
+            "震惊",
+            "不解"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7095995791675788552",
+          "name": "橘白猫头顶问号",
+          "meaning": "猫咪茫然头顶四问号听不懂",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/061_橘白猫头顶问号_7095995791675788552.png",
+          "tags": [
+            "猫",
+            "问号",
+            "疑惑",
+            "懵逼",
+            "不解"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7098262447294909704",
+          "name": "黑人问号白底",
+          "meaning": "白底黑人问号极度困惑不解",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/083_黑人问号白底_7098262447294909704.png",
+          "tags": [
+            "黑人问号",
+            "疑惑",
+            "问号",
+            "不解",
+            "meme"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7100746313733541161",
+          "name": "熊猫头挠头三问",
+          "meaning": "挠头配???摸不着头脑",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/060_熊猫头挠头三问_7100746313733541161.gif",
+          "tags": [
+            "熊猫头",
+            "挠头",
+            "问号",
+            "疑惑",
+            "不解"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7125314913127451934",
+          "name": "熊猫头问号迷惑",
+          "meaning": "对离谱情况极度迷惑不解",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/031_熊猫头问号迷惑_7125314913127451934.png",
+          "tags": [
+            "熊猫头",
+            "问号",
+            "迷惑",
+            "震惊",
+            "离谱",
+            "哈"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7237057893151886604",
+          "name": "白猫挠头单问号",
+          "meaning": "白猫挠头配问号一脸懵",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/063_白猫挠头单问号_7237057893151886604.png",
+          "tags": [
+            "白猫",
+            "挠头",
+            "问号",
+            "疑惑",
+            "懵逼"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7243614272595430659",
+          "name": "黄帽兔挠头问号",
+          "meaning": "兔耳黄衣挠头大问号疑惑",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/058_黄帽兔挠头问号_7243614272595430659.gif",
+          "tags": [
+            "兔子",
+            "挠头",
+            "问号",
+            "疑惑",
+            "不解"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7247879307308141862",
+          "name": "大红卡通问号",
+          "meaning": "大红问号强调疑惑提问",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/072_大红卡通问号_7247879307308141862.gif",
+          "tags": [
+            "问号",
+            "红色",
+            "疑惑",
+            "不解",
+            "what"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7258791094543043859",
+          "name": "满脑子问号熊",
+          "meaning": "头顶一圈问号听不懂看不懂",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/051_满脑子问号熊_7258791094543043859.gif",
+          "tags": [
+            "满脑子问号",
+            "疑惑",
+            "呆滞",
+            "不解",
+            "问号"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7356059598597492018",
+          "name": "哈士奇嗯问号",
+          "meaning": "二哈瞪眼配嗯???极度懵圈",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/049_哈士奇嗯问号_7356059598597492018.png",
+          "tags": [
+            "哈士奇",
+            "二哈",
+            "问号",
+            "疑惑",
+            "嗯",
+            "懵逼"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7384372760367205658",
+          "name": "啊双问号爆炸",
+          "meaning": "啊??爆炸泡对离谱事又惊又惑",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/065_啊双问号爆炸_7384372760367205658.gif",
+          "tags": [
+            "啊",
+            "问号",
+            "疑惑",
+            "震惊",
+            "没看懂"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7398533859547041060",
+          "name": "彩色三连问号",
+          "meaning": "蓝黄红三问号满头问号懵逼",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/059_彩色三连问号_7398533859547041060.png",
+          "tags": [
+            "问号",
+            "疑惑",
+            "懵逼",
+            "三连",
+            "不解"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7411887681787022619",
+          "name": "熊猫头单问号懵",
+          "meaning": "熊猫头瞪眼单问号一脸懵逼",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/066_熊猫头单问号懵_7411887681787022619.png",
+          "tags": [
+            "熊猫头",
+            "问号",
+            "疑惑",
+            "懵逼",
+            "不解"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7439209000006159627",
+          "name": "紫色渐变双问号",
+          "meaning": "紫渐变双问号表疑惑懵逼",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/080_紫色渐变双问号_7439209000006159627.png",
+          "tags": [
+            "问号",
+            "紫色",
+            "疑惑",
+            "渐变",
+            "懵逼"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7445952399765818649",
+          "name": "黄色霓虹三问号",
+          "meaning": "霓虹三问号表达强烈疑惑",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/053_黄色霓虹三问号_7445952399765818649.png",
+          "tags": [
+            "问号",
+            "霓虹",
+            "疑惑",
+            "不解",
+            "装饰"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7525717840385625406",
+          "name": "黄星芒红问号",
+          "meaning": "爆炸泡里红问号表困惑质疑",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/075_黄星芒红问号_7525717840385625406.png",
+          "tags": [
+            "问号",
+            "疑惑",
+            "爆炸框",
+            "黄色",
+            "不解"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7566184884847545625",
+          "name": "满屏粉笔问号",
+          "meaning": "满屏问号极度迷惑莫名其妙",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/064_满屏粉笔问号_7566184884847545625.png",
+          "tags": [
+            "满屏问号",
+            "困惑",
+            "懵逼",
+            "不解",
+            "怎么回事"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7568559333848567064",
+          "name": "蓝色毛绒问号",
+          "meaning": "浅蓝手绘问号表疑问/偏装饰慎用",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/070_蓝色毛绒问号_7568559333848567064.png",
+          "tags": [
+            "问号",
+            "蓝色",
+            "疑惑",
+            "手绘",
+            "装饰"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7575609520894987545",
+          "name": "三问号搜索条",
+          "meaning": "搜索框???表示搜不到答案/疑惑",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/074_三问号搜索条_7575609520894987545.png",
+          "tags": [
+            "问号",
+            "搜索框",
+            "疑惑",
+            "UI",
+            "不解"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7575725145038572862",
+          "name": "白色网点大问号",
+          "meaning": "白网点大问号通用疑惑/偏装饰慎用",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/084_白色网点大问号_7575725145038572862.png",
+          "tags": [
+            "问号",
+            "白色",
+            "疑惑",
+            "装饰",
+            "what"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7596987655410273561",
+          "name": "白色大问号",
+          "meaning": "纯白大问号表疑惑/偏装饰慎用",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/062_白色大问号_7596987655410273561.png",
+          "tags": [
+            "问号",
+            "疑惑",
+            "疑问",
+            "what",
+            "装饰"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7598134541940968766",
+          "name": "发光云朵问号",
+          "meaning": "云朵眯眼冒问号纠结看不懂",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/073_发光云朵问号_7598134541940968766.png",
+          "tags": [
+            "云朵",
+            "问号",
+            "疑惑",
+            "纠结",
+            "尴尬"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7598949565517008190",
+          "name": "蓝衣小人挠头疑惑",
+          "meaning": "挠头冒双问号纳闷不解",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/054_蓝衣小人挠头疑惑_7598949565517008190.png",
+          "tags": [
+            "挠头",
+            "问号",
+            "疑惑",
+            "不解",
+            "思考"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7626652836234792217",
+          "name": "白波点三问号",
+          "meaning": "波点三问号头顶疑惑",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/079_白波点三问号_7626652836234792217.png",
+          "tags": [
+            "问号",
+            "波点",
+            "疑惑",
+            "不解",
+            "what"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7638643341261032766",
+          "name": "红问号黄星芒",
+          "meaning": "手绘红问号表疑问困惑",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/067_红问号黄星芒_7638643341261032766.png",
+          "tags": [
+            "问号",
+            "疑问",
+            "困惑",
+            "手绘",
+            "what"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7642238430499327257",
+          "name": "发光双白问号",
+          "meaning": "霓虹双问号表达不解疑惑",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/085_发光双白问号_7642238430499327257.png",
+          "tags": [
+            "问号",
+            "发光",
+            "疑惑",
+            "霓虹",
+            "不解"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7660832864266865982",
+          "name": "黄粉描边三问号",
+          "meaning": "三连黄问号强调强烈疑惑",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/068_黄粉描边三问号_7660832864266865982.gif",
+          "tags": [
+            "问号",
+            "疑惑",
+            "不解",
+            "三连",
+            "what"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7664527913311653144",
+          "name": "像素白三问号",
+          "meaning": "8bit三问号表强烈疑惑",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/077_像素白三问号_7664527913311653144.png",
+          "tags": [
+            "像素",
+            "问号",
+            "疑惑",
+            "8bit",
+            "不解"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7665284523932011800",
+          "name": "粉蓝黄满头问号",
+          "meaning": "彩色多问号满头疑惑不解",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/071_粉蓝黄满头问号_7665284523932011800.png",
+          "tags": [
+            "问号",
+            "疑惑",
+            "彩色",
+            "不解",
+            "满头问号"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7667353037438176536",
+          "name": "黄河马头呆橘",
+          "meaning": "头顶橘子大眼呆滞一脸懵",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/046_黄河马头呆橘_7667353037438176536.gif",
+          "tags": [
+            "河马",
+            "呆滞",
+            "懵逼",
+            "橘子",
+            "大眼",
+            "疑惑"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7679391450018155800",
+          "name": "像素乐高问号块",
+          "meaning": "像素问号方块表疑惑/偏装饰慎用",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/052_像素乐高问号块_7679391450018155800.png",
+          "tags": [
+            "问号",
+            "像素",
+            "乐高",
+            "疑惑",
+            "mystery"
+          ],
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "breakdown_frustrated": {
+      "description": "环境挂、反复返工、调试崩溃和摆烂",
+      "triggers": [
+        "崩了",
+        "返工",
+        "环境又挂了",
+        "复现不了",
+        "抓狂",
+        "气死",
+        "摆烂",
+        "砸电脑",
+        "一片红"
+      ],
+      "candidates": [
+        "assets/emotional_image_for_cut/03_崩溃烦躁_环境挂了/012_崩溃烦躁_环境挂了_猫拍笔记本_调试到崩溃.gif",
+        "assets/emotional_image_for_cut/03_崩溃烦躁_环境挂了/013_崩溃烦躁_环境挂了_猫咪电脑抓狂_想砸电脑.gif",
+        "assets/emotional_image_for_cut/03_崩溃烦躁_环境挂了/014_崩溃烦躁_环境挂了_摔杯子_心态崩了.gif",
+        "assets/emotional_image_for_cut/03_崩溃烦躁_环境挂了/015_崩溃烦躁_环境挂了_好烦_环境又挂了.gif",
+        "assets/emotional_image_for_cut/03_崩溃烦躁_环境挂了/017_崩溃烦躁_环境挂了_心烦_复现不了.gif",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/074_通用反应_垫场_开始摆烂_小企鹅表情包_企鹅_摆烂表情.jpg",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/102_通用反应_垫场_气死我了_皮卡丘_气死我了表情.gif"
+      ],
+      "jianying_candidates": [
+        {
+          "resource_id": "6979856006029331743",
+          "name": "蘑菇头敲键盘吐舌",
+          "meaning": "疯狂敲键盘/键盘侠/码字中",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/015_蘑菇头敲键盘吐舌_6979856006029331743.png",
+          "tags": [
+            "敲键盘",
+            "打字",
+            "键盘",
+            "电脑",
+            "蘑菇头",
+            "键盘侠",
+            "typing",
+            "工作"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7000856530971020574",
+          "name": "模糊尖叫猫崩溃",
+          "meaning": "极度慌张破防大叫崩溃",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/026_模糊尖叫猫崩溃_7000856530971020574.png",
+          "tags": [
+            "猫",
+            "尖叫",
+            "崩溃",
+            "慌张",
+            "模糊",
+            "破防"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7257357723187088695",
+          "name": "红衣小猫尖叫",
+          "meaning": "鬼畜大叫崩溃/对离谱事破防",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/035_红衣小猫尖叫_7257357723187088695.png",
+          "tags": [
+            "尖叫",
+            "崩溃",
+            "红衣",
+            "猫",
+            "鬼畜",
+            "大喊"
+          ],
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "surprise_absurd": {
+      "description": "好家伙、离谱、意外发现",
+      "triggers": [
+        "好家伙",
+        "离谱",
+        "居然",
+        "没想到",
+        "这也行",
+        "不敢相信"
+      ],
+      "candidates": [
+        "assets/emotional_image_for_cut/01_惊讶震惊_发现异常/013_惊讶震惊_发现异常_不敢置信_用例居然失败.gif",
+        "assets/emotional_image_for_cut/01_惊讶震惊_发现异常/015_惊讶震惊_发现异常_震惊猫_发现致命Bug.gif",
+        "assets/emotional_image_for_cut/01_惊讶震惊_发现异常/018_惊讶震惊_发现异常_OhMyGod_测试结果离谱.gif",
+        "assets/emotional_image_for_cut/01_惊讶震惊_发现异常/019_惊讶震惊_发现异常_缓缓转头_这也太离谱了.gif"
+      ],
+      "jianying_candidates": [
+        {
+          "resource_id": "7564689515802283269",
+          "name": "Amazed EN Emoji",
+          "meaning": "失败响应但业务已执行时使用震惊橘猫",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7594819263823629621",
+          "name": "emoji EN OMG",
+          "meaning": "数据泄露场景使用震惊白猫",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6895942608086928653",
+          "name": "黄爆红感叹号",
+          "meaning": "漫画爆炸感叹号强调突发震惊",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/048_黄爆红感叹号_6895942608086928653.png",
+          "tags": [
+            "感叹号",
+            "震惊",
+            "注意",
+            "发现",
+            "爆炸"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6916059364809772296",
+          "name": "还有这种操作",
+          "meaning": "对离谱骚操作表示不可思议",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/025_还有这种操作_6916059364809772296.png",
+          "tags": [
+            "还有这种操作",
+            "熊猫头",
+            "震惊",
+            "离谱",
+            "吃饭"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6924969679517699335",
+          "name": "白猫三感叹号震惊",
+          "meaning": "突发震惊/三感叹号大吃一惊",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/019_白猫三感叹号震惊_6924969679517699335.png",
+          "tags": [
+            "白猫",
+            "震惊",
+            "感叹号",
+            "惊讶",
+            "吓一跳"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6939370580357451038",
+          "name": "唐僧愣住",
+          "meaning": "离谱瞬间石化愣住说不出话",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/020_唐僧愣住_6939370580357451038.png",
+          "tags": [
+            "唐僧",
+            "愣住",
+            "震惊",
+            "西游记",
+            "呆滞",
+            "石化"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6941321740756765988",
+          "name": "折耳猫张嘴震惊",
+          "meaning": "小猫张嘴瞪眼大吃一惊",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/034_折耳猫张嘴震惊_6941321740756765988.png",
+          "tags": [
+            "折耳猫",
+            "震惊",
+            "小猫",
+            "呆住",
+            "不可思议"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6992166648182590733",
+          "name": "抱头惊恐脸",
+          "meaning": "抱头尖叫极度震惊恐慌",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/039_抱头惊恐脸_6992166648182590733.png",
+          "tags": [
+            "抱头",
+            "惊恐",
+            "尖叫",
+            "震惊",
+            "天呐"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7009541464485055751",
+          "name": "蘑菇头吃惊",
+          "meaning": "蘑菇头吃惊!!!大跌眼镜",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/040_蘑菇头吃惊_7009541464485055751.png",
+          "tags": [
+            "蘑菇头",
+            "吃惊",
+            "震惊",
+            "表情包",
+            "呆住"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7022984604160118024",
+          "name": "捂嘴哦呦嘿嘿",
+          "meaning": "看到好笑离谱事捂嘴偷笑",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/022_捂嘴哦呦嘿嘿_7022984604160118024.png",
+          "tags": [
+            "捂嘴",
+            "偷笑",
+            "哦呦",
+            "嘿嘿",
+            "小孩",
+            "搞笑"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7068246669258755331",
+          "name": "我感到十分惊讶",
+          "meaning": "小孩一脸惊讶配文十分惊讶",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/033_我感到十分惊讶_7068246669258755331.png",
+          "tags": [
+            "惊讶",
+            "震惊",
+            "小孩",
+            "表情包",
+            "不敢相信"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7104387118452985101",
+          "name": "哇哦震惊猫",
+          "meaning": "看到离谱事哇哦大吃一惊",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/018_哇哦震惊猫_7104387118452985101.gif",
+          "tags": [
+            "哇哦",
+            "震惊",
+            "猫",
+            "惊讶",
+            "不可思议",
+            "wow"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7201777000124566816",
+          "name": "耳机哥瞪眼离谱",
+          "meaning": "瞪大眼对离谱事强烈反应",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/041_耳机哥瞪眼离谱_7201777000124566816.png",
+          "tags": [
+            "震惊",
+            "离谱",
+            "瞪眼",
+            "耳机",
+            "表情包"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7208752644041608485",
+          "name": "女孩捂嘴惊讶",
+          "meaning": "捂嘴惊讶反应/天呐不敢相信",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/024_女孩捂嘴惊讶_7208752644041608485.png",
+          "tags": [
+            "惊讶",
+            "捂嘴",
+            "女孩",
+            "震惊",
+            "天呐"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7293414887437438258",
+          "name": "粉字OMG震惊",
+          "meaning": "漫画风OMG极度惊讶震惊",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/032_粉字OMG震惊_7293414887437438258.gif",
+          "tags": [
+            "OMG",
+            "震惊",
+            "我的天",
+            "漫画",
+            "惊讶"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7297541853354790181",
+          "name": "目瞪口呆小孩",
+          "meaning": "小孩目瞪口呆对离谱事不可置信",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/044_目瞪口呆小孩_7297541853354790181.png",
+          "tags": [
+            "目瞪口呆",
+            "震惊",
+            "小孩",
+            "惊讶",
+            "这啥"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7368139307523132682",
+          "name": "仓鼠双重震惊",
+          "meaning": "仓鼠瞪眼叠加虚影极度震惊",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/047_仓鼠双重震惊_7368139307523132682.png",
+          "tags": [
+            "仓鼠",
+            "震惊",
+            "呆滞",
+            "不可思议",
+            "表情包"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7451807248759688498",
+          "name": "双簇感叹号强调",
+          "meaning": "漫画感叹号强调震惊/偏装饰慎用",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/037_双簇感叹号强调_7451807248759688498.png",
+          "tags": [
+            "感叹号",
+            "震惊",
+            "强调",
+            "漫画",
+            "装饰"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7493901603788049726",
+          "name": "橙脸蓝感叹震惊",
+          "meaning": "3D橙脸配感叹号吓一大跳",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/043_橙脸蓝感叹震惊_7493901603788049726.png",
+          "tags": [
+            "震惊",
+            "感叹号",
+            "惊吓",
+            "意外",
+            "emoji"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7534016753882615065",
+          "name": "可爱幽灵惊讶",
+          "meaning": "可爱幽灵O嘴惊讶/偏装饰慎用",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/028_可爱幽灵惊讶_7534016753882615065.png",
+          "tags": [
+            "幽灵",
+            "惊讶",
+            "可爱",
+            "万圣节",
+            "装饰"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7603805434222300441",
+          "name": "小人啊流汗惊讶",
+          "meaning": "啊！流汗惊讶兼带尴尬",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/029_小人啊流汗惊讶_7603805434222300441.png",
+          "tags": [
+            "啊",
+            "流汗",
+            "惊讶",
+            "尴尬",
+            "感叹"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7627042643603721496",
+          "name": "橘猫O嘴震惊",
+          "meaning": "瞪眼张嘴对离谱事极度震惊",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/027_橘猫O嘴震惊_7627042643603721496.png",
+          "tags": [
+            "橘猫",
+            "震惊",
+            "O嘴",
+            "瞪眼",
+            "吃惊"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7665708602988104984",
+          "name": "霓虹ASCII震惊猫",
+          "meaning": "霓虹猫张嘴震惊兼省略号无语",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/045_霓虹ASCII震惊猫_7665708602988104984.png",
+          "tags": [
+            "震惊",
+            "无语",
+            "霓虹",
+            "猫",
+            "省略号",
+            "ascii"
+          ],
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "realization_root_cause": {
+      "description": "真正找到根因后的恍然大悟",
+      "triggers": [
+        "原来如此",
+        "根因找到了",
+        "找到根因",
+        "恍然大悟"
+      ],
+      "candidates": [
+        "assets/emotional_image_for_cut/04_恍然大悟_找到根因/001_恍然大悟_找到根因_恍然大悟_根因找到了.gif"
+      ],
+      "note": "仅凭 AI 把日志分类、尚未验证根因时禁用。",
+      "jianying_candidates": [
+        {
+          "resource_id": "7575886898355490053",
+          "name": "Understand EN Emoji",
+          "meaning": "权限矩阵交叉点对应自动化场景后的理解确认",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6940814172837989646",
+          "name": "白兔顿悟惊讶",
+          "meaning": "可爱兔子突然明白/啊原来如此",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/036_白兔顿悟惊讶_6940814172837989646.png",
+          "tags": [
+            "兔子",
+            "顿悟",
+            "惊讶",
+            "明白",
+            "可爱"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6995407302819958030",
+          "name": "三人抬头顿悟星",
+          "meaning": "抬头发现亮点/集体恍然大悟",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/042_三人抬头顿悟星_6995407302819958030.png",
+          "tags": [
+            "顿悟",
+            "星星",
+            "围观",
+            "发现",
+            "惊讶"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7104355488644467999",
+          "name": "熊猫头感叹号顿悟",
+          "meaning": "突然明白/发现关键点原来如此",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/017_熊猫头感叹号顿悟_7104355488644467999.png",
+          "tags": [
+            "熊猫头",
+            "感叹号",
+            "顿悟",
+            "懂了",
+            "发现",
+            "原来如此"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7210041688650157369",
+          "name": "熊猫头斜眼感叹",
+          "meaning": "斜眼发现端倪/心领神会顿悟",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/023_熊猫头斜眼感叹_7210041688650157369.png",
+          "tags": [
+            "熊猫头",
+            "斜眼",
+            "感叹号",
+            "发现",
+            "顿悟",
+            "会意"
+          ],
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "observe_result": {
+      "description": "等待并观察测试结果",
+      "triggers": [
+        "看看结果",
+        "观察结果",
+        "盯着结果",
+        "等待结果"
+      ],
+      "candidates": [],
+      "note": "素材已清理/缺失，候选为空时不用表情包。",
+      "jianying_candidates": [
+        {
+          "resource_id": "7568758032176401682",
+          "name": "Emoji EN - Look Look!",
+          "meaning": "提醒逐条检查列表、翻页、搜索和导出结果",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7574814685220834613",
+          "name": "Understand EN Emoji",
+          "meaning": "检查清单出现时用猫咪确认语义",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7596250451109023029",
+          "name": "Emoji EN - Look Look!",
+          "meaning": "用猫咪指向动作提示逐项检查身份状态",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "6916059199701077255",
+          "name": "对方正在寻找表情包",
+          "meaning": "翻找中/稍等/对方在找表情包",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/010_对方正在寻找表情包_6916059199701077255.png",
+          "tags": [
+            "寻找表情包",
+            "翻找",
+            "稍等",
+            "等一下",
+            "抽屉"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7012984729683201293",
+          "name": "熊猫头边吃边看戏",
+          "meaning": "淡定围观看戏/边吃边观察结果",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/021_熊猫头边吃边看戏_7012984729683201293.gif",
+          "tags": [
+            "熊猫头",
+            "吃饭",
+            "看戏",
+            "淡定",
+            "围观"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7160306425376394526",
+          "name": "小猫程序员办公",
+          "meaning": "迷你工位认真看屏查结果/写代码",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/012_小猫程序员办公_7160306425376394526.gif",
+          "tags": [
+            "小猫",
+            "程序员",
+            "电脑",
+            "办公",
+            "专注",
+            "打工"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7258140396415356200",
+          "name": "粉猪盯屏上网",
+          "meaning": "电脑前专注看结果/查资料",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/014_粉猪盯屏上网_7258140396415356200.gif",
+          "tags": [
+            "小猪",
+            "电脑",
+            "上网",
+            "专注",
+            "观察",
+            "办公"
+          ],
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "success_passed": {
+      "description": "明确、真实地成功或通过",
+      "triggers": [
+        "通过了",
+        "跑绿了",
+        "搞定了",
+        "成功了",
+        "完成了",
+        "全绿"
+      ],
+      "forbid_when": [
+        "看起来通过",
+        "假通过",
+        "误报",
+        "结果不对",
+        "但实际"
+      ],
+      "candidates": [
+        "assets/emotional_image_for_cut/11_成功开心_通过了/002_成功开心_用例通过_熊本熊开心走路背影.gif",
+        "assets/emotional_image_for_cut/11_成功开心_通过了/003_成功开心_用例通过_熊本熊开心到跳起.gif",
+        "assets/emotional_image_for_cut/11_成功开心_通过了/004_成功开心_用例通过_好开心.gif"
+      ],
+      "jianying_candidates": [
+        {
+          "resource_id": "7591406227121278213",
+          "name": "Emoji EN Two Thumbs Up Confused",
+          "meaning": "用疑惑式点赞表达用例全通过但结论可疑的反差",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "skeptical_review": {
+      "description": "质疑方案是否靠谱、能否过审、结果是否正确",
+      "triggers": [
+        "这能过审",
+        "靠谱吗",
+        "真能用吗",
+        "结果完全不对",
+        "只看返回码",
+        "就当找到根因"
+      ],
+      "candidates": [
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/109_通用反应_垫场_I_SAY_这还能过审.gif",
+        "assets/emotional_image_for_cut/15_通用反应_垫场素材/110_通用反应_垫场_侧头回看_结果完全不对.gif"
+      ],
+      "jianying_candidates": [
+        {
+          "resource_id": "7233773257873165574",
+          "name": "疑问不解",
+          "meaning": "用翻白眼表达对只测接口入口答案的质疑",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7267932305451126022",
+          "name": "黄牌警告手势",
+          "meaning": "错误码和内部信息泄露属于警告风险",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7268058423571320069",
+          "name": "红牌警告",
+          "meaning": "访问他人数据必须被拒绝，使用红牌禁止语义",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7579898299575012661",
+          "name": "Emoji EN Shrug Whatever Looks",
+          "meaning": "强调原方案只测访问权限、方向不完整",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7022555591826525477",
+          "name": "人脸兔无语",
+          "meaning": "无语审视/你认真的吗",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/004_人脸兔无语_7022555591826525477.png",
+          "tags": [
+            "人脸兔",
+            "无语",
+            "怀疑",
+            "审视",
+            "冷脸"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7604320183884238105",
+          "name": "粉兔嫌弃脸",
+          "meaning": "嫌弃/不屑/翻白眼感",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/002_粉兔嫌弃脸_7604320183884238105.png",
+          "tags": [
+            "粉兔",
+            "嫌弃",
+            "无语",
+            "质疑",
+            "淡定",
+            "meh"
+          ],
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "interaction_comment": {
+      "description": "泛评论区提问；当前素材库没有足够精确的候选",
+      "triggers": [
+        "评论区说说",
+        "你们觉得",
+        "有没有遇到",
+        "站队聊聊",
+        "你们的用例库",
+        "回去看看"
+      ],
+      "candidates": [],
+      "note": "候选为空即不用表情包，保留风格底和字幕，不从通用目录随机抽。",
+      "jianying_candidates": [
+        {
+          "resource_id": "7233765716363775237",
+          "name": "问号",
+          "meaning": "结尾向观众追问权限断言做到哪一层",
+          "preview": "",
+          "tags": [],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7246568509394734394",
+          "name": "白鸭敲键盘",
+          "meaning": "疯狂敲键盘回复/加班码字",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/013_白鸭敲键盘_7246568509394734394.gif",
+          "tags": [
+            "白鸭",
+            "打字",
+            "敲键盘",
+            "加班",
+            "回复",
+            "程序员"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7262907798357347625",
+          "name": "白猫认真打字",
+          "meaning": "专注码字/回消息/认真干活",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/011_白猫认真打字_7262907798357347625.gif",
+          "tags": [
+            "白猫",
+            "打字",
+            "电脑",
+            "码字",
+            "工作",
+            "回复"
+          ],
+          "verified_in_jianying": false
+        },
+        {
+          "resource_id": "7511739716480421144",
+          "name": "点赞关注收藏三连",
+          "meaning": "手指点赞关注收藏引导一键三连",
+          "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/117_点赞关注收藏三连_7511739716480421144.png",
+          "tags": [
+            "点赞",
+            "关注",
+            "收藏",
+            "三连",
+            "引导",
+            "互动"
+          ],
+          "verified_in_jianying": false
+        }
+      ]
+    }
+  }
+}

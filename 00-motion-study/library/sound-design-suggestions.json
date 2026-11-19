@@ -1,0 +1,131 @@
+{
+  "status": "proposed_not_learned_from_audio",
+  "audio_stream_count_by_source": {
+    "learning-roadmap": 0,
+    "interview-framework": 0
+  },
+  "library_assets_created": false,
+  "relative_level": "混音时按真实旁白校准，建议显著弱于旁白；本次未试听未测响度",
+  "entries": [
+    {
+      "id": "SFX-01",
+      "category": "短强调/落点",
+      "trigger": "关键短词落稳",
+      "character": "短、干净的pop或轻击",
+      "suggested_duration_s": [
+        0.12,
+        0.3
+      ],
+      "avoid": "不覆盖旁白辅音；普通字幕逐句不加",
+      "observed": false,
+      "asset_file": null,
+      "resource_id": null,
+      "validation": "unverified"
+    },
+    {
+      "id": "SFX-02",
+      "category": "判断确认/否定",
+      "trigger": "正反符号出现",
+      "character": "轻确认音或克制错误提示",
+      "suggested_duration_s": [
+        0.15,
+        0.4
+      ],
+      "avoid": "同一镜正反两次可只给一次重点",
+      "observed": false,
+      "asset_file": null,
+      "resource_id": null,
+      "validation": "unverified"
+    },
+    {
+      "id": "SFX-03",
+      "category": "卡片入场",
+      "trigger": "新增卡接近最终位置",
+      "character": "轻whoosh接很短落点",
+      "suggested_duration_s": [
+        0.15,
+        0.35
+      ],
+      "avoid": "同一组优先首卡/末卡，避免每卡都叠满",
+      "observed": false,
+      "asset_file": null,
+      "resource_id": null,
+      "validation": "unverified"
+    },
+    {
+      "id": "SFX-04",
+      "category": "语义反应",
+      "trigger": "角色或反应贴纸出现",
+      "character": "与情绪匹配的短反应",
+      "suggested_duration_s": [
+        0.2,
+        0.6
+      ],
+      "avoid": "无人物模式不用拟人反应；不随贴纸数量硬配",
+      "observed": false,
+      "asset_file": null,
+      "resource_id": null,
+      "validation": "unverified"
+    },
+    {
+      "id": "SFX-05",
+      "category": "章节建立",
+      "trigger": "章节标题进入或落稳",
+      "character": "简短上扬/翻章提示",
+      "suggested_duration_s": [
+        0.2,
+        0.5
+      ],
+      "avoid": "章节才用；标题归位不必再次响",
+      "observed": false,
+      "asset_file": null,
+      "resource_id": null,
+      "validation": "unverified"
+    },
+    {
+      "id": "SFX-06",
+      "category": "列表递进",
+      "trigger": "第二项/最后一项标签加入",
+      "character": "轻click/tick",
+      "suggested_duration_s": [
+        0.05,
+        0.15
+      ],
+      "avoid": "只标节奏关键点，连打会干扰语言",
+      "observed": false,
+      "asset_file": null,
+      "resource_id": null,
+      "validation": "unverified"
+    },
+    {
+      "id": "SFX-07",
+      "category": "范围展开",
+      "trigger": "局部窗口揭示为全图",
+      "character": "柔和展开whoosh",
+      "suggested_duration_s": [
+        0.2,
+        0.45
+      ],
+      "avoid": "不因有圆形就编造放大镜音效",
+      "observed": false,
+      "asset_file": null,
+      "resource_id": null,
+      "validation": "unverified"
+    },
+    {
+      "id": "SFX-08",
+      "category": "资料摊开",
+      "trigger": "卷页展开或合集落稳",
+      "character": "柔和纸张声/轻扫页",
+      "suggested_duration_s": [
+        0.2,
+        0.6
+      ],
+      "avoid": "需要可用授权文件；滚动期间不要持续翻页声",
+      "observed": false,
+      "asset_file": null,
+      "resource_id": null,
+      "validation": "unverified"
+    }
+  ]
+}

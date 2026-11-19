@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "source": "02-500+款字幕预设合集",
+  "policy": {
+    "enabled": true,
+    "max_per_30s": 2,
+    "min_gap_us": 3000000,
+    "animation_duration_us": 360000,
+    "sound_volume": 0.16,
+    "sound_max_duration_us": 1800000
+  },
+  "presets": [
+    {"id":"q01","source_name":"温11-1句疑问","intent":"question","animation":"渐显","sound_name":"一滴水滴声","source_effect_id":"6974688834588036388","runtime_effect_id":"7603321777284009258","template":{"layout":"landscape_safe_adaptation","layers":[{"role":"decorator","text":"?","font":"新青年体","size":28,"color":"#FFFFFF","bold":true,"italic":true,"x":0.0,"y":-0.48,"max_line_width":0.18,"animation":"渐显","animation_duration_us":300000},{"role":"body","font":"新青年体","size":7.4,"color":"#FFDE00","bold":true,"italic":true,"x":0.0,"y":-0.72,"max_line_width":0.82,"animation":"模糊发光","animation_duration_us":300000}] }},
+    {"id":"q02","source_name":"温48-疑问1","intent":"question","animation":"向上滑动","sound_name":"综艺悬疑 不对劲","source_effect_id":"7091950823202180365","runtime_effect_id":"7605847357212626239"},
+    {"id":"q03","source_name":"温16-疑问","intent":"question","animation":"向右缓入","sound_name":"回忆-刷一下","source_effect_id":"6942548376642800910","runtime_effect_id":"7603321777284009258"},
+    {"id":"q04","source_name":"温7-疑问覆盖","intent":"question","animation":"模糊发光","sound_name":"一滴水滴声","source_effect_id":"6974688834588036388","runtime_effect_id":"7605847357212626239"},
+
+    {"id":"w01","source_name":"警示文字","intent":"warning","animation":"缩小","sound_name":"哐，撞击轻响","source_effect_id":"6896679958656208141","runtime_effect_id":"7605849976815586603"},
+    {"id":"w02","source_name":"温37-4个大字1","intent":"warning","animation":"折叠","sound_name":"枪拉栓","source_effect_id":"6896680757318749447","runtime_effect_id":"7605852771241282835"},
+    {"id":"w03","source_name":"温43-3个大字","intent":"warning","animation":"向上滑动","sound_name":"综艺悬疑 不对劲","source_effect_id":"7091950823202180365","runtime_effect_id":"7605848259264810246"},
+    {"id":"w04","source_name":"温49-2个大字1","intent":"warning","animation":"呐喊声波","sound_name":"影视 咚","source_effect_id":"7008162462839082254","runtime_effect_id":"7605852749409832228"},
+
+    {"id":"s01","source_name":"温35-序号1","intent":"step","animation":"向上露出","sound_name":"呼声转场","source_effect_id":"6896679958656109837","runtime_effect_id":"7603320679395642643","template":{"layout":"landscape_safe_adaptation","layers":[{"role":"label","text":"步骤","font":"俊雅体","fallback_font":"新青年体","size":8.8,"color":"#FFFFFF","italic":true,"x":-0.62,"y":-0.59,"max_line_width":0.20,"animation":"向上露出","animation_duration_us":400000},{"role":"body","font":"得意黑","fallback_font":"新青年体","size":6.2,"color":"#B71C1C","italic":true,"x":0.02,"y":-0.72,"max_line_width":0.72,"start_offset_us":300000,"animation":"向右露出","animation_duration_us":500000}] }},
+    {"id":"s02","source_name":"温58-序号1","intent":"step","animation":"吸入","sound_name":"Q弹","source_effect_id":"7225120017304554752","runtime_effect_id":"7605846269457632548"},
+    {"id":"s03","source_name":"温10-3句并列1","intent":"step","animation":"渐显","sound_name":"纸张抖动声","source_effect_id":"7013408216851778847","runtime_effect_id":"7605852475454737700"},
+
+    {"id":"c01","source_name":"温20-金句","intent":"conclusion","animation":"打字光标","sound_name":"打字声","source_effect_id":"6896679365493542152","runtime_effect_id":"7605852475454737700"},
+    {"id":"c02","source_name":"温35-金句1","intent":"conclusion","animation":"轻微放大","sound_name":"叮，提示音4","source_effect_id":"6896683582224354573","runtime_effect_id":"7605848729408654634"},
+    {"id":"c03","source_name":"温58-金句","intent":"conclusion","animation":"收拢","sound_name":"空灵水滴声音效","source_effect_id":"6937917311072406798","runtime_effect_id":"7605847357212626239"},
+    {"id":"c04","source_name":"温29-金句","intent":"conclusion","animation":"复古打字机","sound_name":"打字声","source_effect_id":"6896679365493542152","runtime_effect_id":"7605852475454737700"},
+
+    {"id":"t01","source_name":"温11-2句覆盖1","intent":"contrast","animation":"打字光标","sound_name":"砰，拳击声","source_effect_id":"6896680704210521358","runtime_effect_id":"7605853960552860964"},
+    {"id":"t02","source_name":"温9-2行覆盖","intent":"contrast","animation":"跃进","sound_name":"综艺紧张噔噔","source_effect_id":"7115007710961126670","runtime_effect_id":"7605852771241282835"},
+    {"id":"t03","source_name":"温50-2句字幕1","intent":"contrast","animation":"波浪弹入","sound_name":"综艺紧张咚咚声","source_effect_id":"7008156115368217887","runtime_effect_id":"7605848259264810246"},
+
+    {"id":"a01","source_name":"李-波浪弹入1","intent":"cta","animation":"波浪弹入","sound_name":"综艺当当当当","source_effect_id":"7042921422620036366","runtime_effect_id":"7605848729408654634"},
+    {"id":"a02","source_name":"李-轻微放大2","intent":"cta","animation":"轻微放大","sound_name":"叮3","source_effect_id":"6996448284516568357","runtime_effect_id":"7605852073720155398"},
+    {"id":"a03","source_name":"温23-2个大字","intent":"cta","animation":"发光模糊","sound_name":"正确","source_effect_id":"6966538907387301157","runtime_effect_id":"7605848729408654634"},
+
+    {"id":"h01","source_name":"李-左上弹入","intent":"hook","animation":"左上弹入","sound_name":"嗖，咻","source_effect_id":"6993223560764378382","runtime_effect_id":"7603320679395642643"},
+    {"id":"h02","source_name":"李-轻微放大3","intent":"hook","animation":"轻微放大","sound_name":"提示音","source_effect_id":"6896679799100624136","runtime_effect_id":"7605852475454737700"},
+    {"id":"h03","source_name":"李-打字光标","intent":"hook","animation":"打字光标","sound_name":"打字声","source_effect_id":"6896679365493542152","runtime_effect_id":"7605852475454737700"}
+  ]
+}

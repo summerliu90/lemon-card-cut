@@ -1,0 +1,91 @@
+{
+  "library_revision": 2,
+  "source_count": 2,
+  "recipe_ids": [
+    "roadmap-narrative-arc",
+    "proof-knowledge-practice-collection-arc",
+    "interface-demo-bridge",
+    "live-practice-breathing-cut",
+    "chapter-reset-and-dock",
+    "question-to-chapter-pill",
+    "pill-to-pinned-topic",
+    "dual-document-preview",
+    "pair-reveal-for-related-concepts",
+    "dim-old-cards-promote-new",
+    "card-add-and-reflow-row",
+    "blurred-card-unfold-settle",
+    "tool-overview-to-card-cluster",
+    "hook-text-progressive-hierarchy",
+    "qualification-two-column-verdict",
+    "process-words-vertical-build",
+    "central-keyword-over-document",
+    "verdict-cross-overlay",
+    "evidence-wall-to-takeaway",
+    "closing-sticker-single-punch",
+    "circle-focus-to-full-diagram",
+    "diagram-vertical-label-stagger",
+    "framework-and-role-badges",
+    "metaphor-overlay-swap",
+    "concept-to-application-character",
+    "blurred-scenario-with-explainer",
+    "reaction-on-stable-knowledge-group",
+    "proof-stack-with-anchor-headline",
+    "project-icon-to-proof-card",
+    "collection-main-two-support-pan",
+    "page-curl-to-three-window-collection",
+    "fixed-window-document-scroll"
+  ],
+  "families": {
+    "全片构造与节奏": [
+      "roadmap-narrative-arc",
+      "proof-knowledge-practice-collection-arc",
+      "interface-demo-bridge",
+      "live-practice-breathing-cut"
+    ],
+    "章节导航与切换": [
+      "chapter-reset-and-dock",
+      "question-to-chapter-pill",
+      "pill-to-pinned-topic"
+    ],
+    "卡片入场、重排与递进": [
+      "dual-document-preview",
+      "pair-reveal-for-related-concepts",
+      "dim-old-cards-promote-new",
+      "card-add-and-reflow-row",
+      "blurred-card-unfold-settle",
+      "tool-overview-to-card-cluster"
+    ],
+    "文字、图标与重点强调": [
+      "hook-text-progressive-hierarchy",
+      "qualification-two-column-verdict",
+      "process-words-vertical-build",
+      "central-keyword-over-document",
+      "verdict-cross-overlay",
+      "evidence-wall-to-takeaway",
+      "closing-sticker-single-punch"
+    ],
+    "图示聚焦与语义标注": [
+      "circle-focus-to-full-diagram",
+      "diagram-vertical-label-stagger",
+      "framework-and-role-badges"
+    ],
+    "人物、隐喻与反应": [
+      "metaphor-overlay-swap",
+      "concept-to-application-character",
+      "blurred-scenario-with-explainer",
+      "reaction-on-stable-knowledge-group"
+    ],
+    "证据与作品呈现": [
+      "proof-stack-with-anchor-headline",
+      "project-icon-to-proof-card"
+    ],
+    "资料窗口、浏览与合集": [
+      "collection-main-two-support-pan",
+      "page-curl-to-three-window-collection",
+      "fixed-window-document-scroll"
+    ]
+  },
+  "analysis_report": "/Users/huahua/Documents/ai_code/outputs/motion-study-20261023/学习报告.md",
+  "validation_report": "/Users/huahua/Documents/ai_code/outputs/motion-study-20261023/validation-report.json",
+  "sound_status": "proposed_only_no_audio_in_sources"
+}

@@ -1,0 +1,92 @@
+{
+  "version": 2,
+  "default": "no-character",
+  "styles": {
+    "card-grid": {
+      "label": "知识卡片网格",
+      "background": "#171B22",
+      "accent": "#10B8B0",
+      "card_background": "#FFFFFF",
+      "text": "#18212F",
+      "motif": "白色资料卡、准确图表、暗底十字纹",
+      "route": "svg-layout"
+    },
+    "apple": {
+      "label": "无品牌极简发布会",
+      "background": "#0A0A0A",
+      "accent": "#45D7FF",
+      "text": "#FFFFFF",
+      "motif": "黑底、大留白、青色重点、磨砂玻璃物件",
+      "route": "hybrid",
+      "prompt_name": "brand-neutral minimalist product keynote"
+    },
+    "xiaohei": {
+      "label": "小黑手绘",
+      "background": "#FFFFFF",
+      "accent": "#FF6B35",
+      "text": "#111111",
+      "motif": "黑线手绘、怪诞小黑、少量红橙蓝批注",
+      "route": "hybrid",
+      "series_profile_id": "series-xiaohei-v1",
+      "series_profile_version": 1,
+      "series_parameters_file": "../../01-shot-list/references/series-profiles.json"
+    },
+    "lemoner": {
+      "label": "小柠檬IP",
+      "background": "#FFFFFF",
+      "accent": "#FFC928",
+      "text": "#241F18",
+      "motif": "亮黄柠檬角色、浅蓝背带裤、粗描边扁平贴纸",
+      "route": "reference-edit",
+      "series_profile_id": "series-lemoner-v1",
+      "series_profile_version": 1,
+      "series_parameters_file": "../../01-shot-list/references/series-profiles.json"
+    },
+    "meme-grid": {
+      "label": "动态网格表情包",
+      "background": "#171B22",
+      "accent": "#FFDE00",
+      "text": "#FFFFFF",
+      "motif": "暗色网格、原生大字、语义反应表情包",
+      "route": "hybrid",
+      "background_motion": "需有实际本地视频或制作参数；没有资源时标unresolved，不伪造资源ID"
+    },
+    "xiaohei-illustrated-infographic": {
+      "label": "小黑图文信息图",
+      "extends": "xiaohei",
+      "background": "#FFFFFF",
+      "accent": "#E56B30",
+      "chapter_accents": [
+        "#E56B30",
+        "#3C78C5",
+        "#8056C9"
+      ],
+      "text": "#171922",
+      "motif": "小黑主插画、具体设备文档道具、独立准确中文、章节色签与浅色信息分区",
+      "route": "hybrid",
+      "typography": "黑体主标题＋清晰正文＋少量独立彩色强调词",
+      "character": "黑色不规则小怪物、白点眼、细腿，参与概念动作"
+    },
+    "no-character": {
+      "label": "无人物动态卡片",
+      "background": "#171B22",
+      "accent": "#10B8B0",
+      "card_background": "#FFFFFF",
+      "text": "#18212F",
+      "motif": "暖纸感彩色完整知识插画、原生准确中文、节点关系/流程/表格实例；无人物/IP/拟人或人物表情包",
+      "route": "hybrid",
+      "character_policy": "none",
+      "meme_policy": "disabled",
+      "motion": "依次显现、卡片滑入、连线绘制、局部高亮、视窗滚动",
+      "series_profile_id": "series-no-character-v1",
+      "series_profile_version": 1,
+      "series_parameters_file": "../../01-shot-list/references/series-profiles.json"
+    }
+  },
+  "feishu_supported": {
+    "7 小黑手绘": "xiaohei",
+    "8 小柠檬IP": "lemoner",
+    "10 无人物动态卡片": "no-character"
+  },
+  "series_standard_file": "../../01-shot-list/references/series-visual-standard.md"
+}

@@ -1,0 +1,78 @@
+{
+  "source_sha256": "fd757778bd9fffb81d33c728fd1c173029877f783a305f3a3f0f9abd2ac67182",
+  "timing_precision": "estimated_from_frames",
+  "audio_status": "no_audio_stream",
+  "semantic_basis": "从可见字幕和素材关系判断叙事角色，不作音频转写",
+  "segments": [
+    {
+      "start_s": 0,
+      "end_s": 4.1,
+      "role": "代入钩子",
+      "visual_sequence": "实拍→引导短句→时间→大主题缩回→角落反应",
+      "relation": "建立对象、时间、主题层级；原日期不继承"
+    },
+    {
+      "start_s": 4.1,
+      "end_s": 6.7,
+      "role": "条件筛选",
+      "visual_sequence": "左右条件和正反符号分次出现",
+      "relation": "文字是判断，图标作辅助"
+    },
+    {
+      "start_s": 6.7,
+      "end_s": 11.6,
+      "role": "路线预览与状态变化",
+      "visual_sequence": "双资料卡→时钟→两种人物状态→强调字",
+      "relation": "资料底板稳定，前景隐喻轮换"
+    },
+    {
+      "start_s": 11.6,
+      "end_s": 17,
+      "role": "阶段一",
+      "visual_sequence": "章名清场/归位→双卡→旧卡压暗→新卡前置",
+      "relation": "用层级表达基础到应用"
+    },
+    {
+      "start_s": 17,
+      "end_s": 23.4,
+      "role": "阶段二",
+      "visual_sequence": "章名→关联双卡→右侧流程词逐条加→中央结论",
+      "relation": "先给关系，再把结论从细字里提取出来"
+    },
+    {
+      "start_s": 23.4,
+      "end_s": 29.2,
+      "role": "阶段三：结构",
+      "visual_sequence": "章名→圆形局部→完整横图→竖标签逐条加入",
+      "relation": "局部到整体，再给图的可读标签"
+    },
+    {
+      "start_s": 29.2,
+      "end_s": 30.6,
+      "role": "阶段三：应用",
+      "visual_sequence": "结构图换案例图，加用途人物",
+      "relation": "由机制连接具体应用"
+    },
+    {
+      "start_s": 30.6,
+      "end_s": 38.5,
+      "role": "阶段四",
+      "visual_sequence": "章名→框架和资料并列→角色胶囊累积",
+      "relation": "把复杂框架拆成可点名的角色"
+    },
+    {
+      "start_s": 38.5,
+      "end_s": 44.5,
+      "role": "项目与结果",
+      "visual_sequence": "项目图标→项目资料卡→结果大字",
+      "relation": "项目证据与结果文字各司其职"
+    },
+    {
+      "start_s": 44.5,
+      "end_s": 49.266667,
+      "role": "合集收尾",
+      "visual_sequence": "一主两辅固定窗口；主图内部沿分支平移；最后短词",
+      "relation": "展示资料范围，不把小字当逐条教学"
+    }
+  ]
+}

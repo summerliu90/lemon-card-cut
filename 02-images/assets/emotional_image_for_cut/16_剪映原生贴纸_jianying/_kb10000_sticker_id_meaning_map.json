@@ -1,0 +1,1268 @@
+{
+  "draft": "kb10000",
+  "source": "key_value.json materialId + materialName; preview from artistEffect",
+  "overlap_already_in_catalog": 11,
+  "new_count": 126,
+  "items": [
+    {
+      "resource_id": "7129017263591558431",
+      "meaning": "小黄脸尬笑冒汗，表达尴尬、无语或勉强撑场。",
+      "intent": "awkward_silence",
+      "name_zh": "尴尬汗笑",
+      "materialName": "😅emoji小黄脸无语尴尬汗",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/118_emoji小黄脸无语尴尬汗_7129017263591558431.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7011068637649947941",
+      "meaning": "熊猫头托腮侧目，一副冷眼旁观、不太信的样子。",
+      "intent": "skeptical_review",
+      "name_zh": "托腮质疑",
+      "materialName": "托腮",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/119_托腮_7011068637649947941.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7017852468134497549",
+      "meaning": "配文「忍住不笑」，憋笑脸红，适合离谱场面强装镇定。",
+      "intent": "awkward_silence",
+      "name_zh": "忍住不笑",
+      "materialName": "可爱搞笑沙雕萌宠表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/120_可爱搞笑沙雕萌宠表情包_7017852468134497549.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7096187191155526943",
+      "meaning": "大佬带我上分",
+      "intent": "cta_claim_resource",
+      "name_zh": "大佬带我上分",
+      "materialName": "大佬带我上分",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/121_大佬带我上分_7096187191155526943.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7578881443800091929",
+      "meaning": "戴护目镜的小熊拿扳手螺丝刀，表示排查问题、动手修复。",
+      "intent": "realization_root_cause",
+      "name_zh": "智能维修熊",
+      "materialName": "智能维修",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/122_智能维修_7578881443800091929.png",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7298606762536537394",
+      "meaning": "猫咪 太上头了",
+      "intent": "surprise_absurd",
+      "name_zh": "猫咪 太上头了",
+      "materialName": "猫咪，太上头了",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/123_猫咪太上头了_7298606762536537394.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6980974213951655204",
+      "meaning": "小猫玩电脑",
+      "intent": "observe_result",
+      "name_zh": "小猫玩电脑",
+      "materialName": "小猫玩电脑",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/124_小猫玩电脑_6980974213951655204.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7403663639892315428",
+      "meaning": "贴 STUDY/SCHOOL 的电脑与搜索框，表示查资料、学习检索。",
+      "intent": "observe_result",
+      "name_zh": "学习查电脑",
+      "materialName": "开学季学习电脑显示屏",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/125_开学季学习电脑显示屏_7403663639892315428.png",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7155892498676583684",
+      "meaning": "有意思",
+      "intent": "surprise_absurd",
+      "name_zh": "有意思",
+      "materialName": "有意思",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/126_有意思_7155892498676583684.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7096787134232972581",
+      "meaning": "Bug改完了吗",
+      "intent": "breakdown_frustrated",
+      "name_zh": "Bug改完了吗",
+      "materialName": "Bug改完了吗",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/127_Bug改完了吗_7096787134232972581.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6979559123100765453",
+      "meaning": "赛博风发光锁与电路，强调系统已加密、网络安全到位。",
+      "intent": "success_passed",
+      "name_zh": "网络安全锁",
+      "materialName": "网络安全创意背景",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/128_网络安全创意背景_6979559123100765453.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "6982448362465348901",
+      "meaning": "杰瑞挺胸大步走，得意自信，适合转折后「稳了」段落。",
+      "intent": "transition_confidence",
+      "name_zh": "杰瑞自信走",
+      "materialName": "表情包沙雕搞笑斗图gif动图可爱卡通",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/129_表情包沙雕搞笑斗图gif动图可爱卡通_6982448362465348901.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7101491866763365663",
+      "meaning": "表情包 老司机带带我",
+      "intent": "cta_claim_resource",
+      "name_zh": "表情包 老司机带带我",
+      "materialName": "表情包  老司机带带我",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/130_表情包_老司机带带我_7101491866763365663.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7208926297785945356",
+      "meaning": "bug 修完了吗 程序员bug系列表情包",
+      "intent": "breakdown_frustrated",
+      "name_zh": "bug 修完了吗 程序员bug系列表情包",
+      "materialName": "bug 修完了吗？——程序员bug系列表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/131_bug_修完了吗程序员bug系列表情包_7208926297785945356.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7346052208879848731",
+      "meaning": "完了 芭比q了",
+      "intent": "breakdown_frustrated",
+      "name_zh": "完了 芭比q了",
+      "materialName": "完了，芭比q了",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/132_完了芭比q了_7346052208879848731.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7345257042795334953",
+      "meaning": "手绘风托举绿盾对勾，表示防护生效、校验通过。",
+      "intent": "success_passed",
+      "name_zh": "安全防护盾",
+      "materialName": "电脑安全防护",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/133_电脑安全防护_7345257042795334953.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7596251308366155032",
+      "meaning": "粉红兔扁眼直线嘴旁一颗星，表情冷淡不像真开心，更像质疑或「就这？」。",
+      "intent": "skeptical_review",
+      "name_zh": "粉红兔子开心",
+      "materialName": "粉红兔子开心",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/134_粉红兔子开心_7596251308366155032.png",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7096792107599351071",
+      "meaning": "你又在偷偷写bug",
+      "intent": "skeptical_review",
+      "name_zh": "你又在偷偷写bug",
+      "materialName": "你又在偷偷写bug",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/135_你又在偷偷写bug_7096792107599351071.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7687130758456053007",
+      "meaning": "修复bug",
+      "intent": "success_passed",
+      "name_zh": "修复bug",
+      "materialName": "修复bug",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/136_修复bug_7687130758456053007.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6977309878859664648",
+      "meaning": "猫和老鼠懵逼问号脸搞笑表情包",
+      "intent": "confused",
+      "name_zh": "猫和老鼠懵逼问号脸搞笑表情包",
+      "materialName": "猫和老鼠懵逼问号脸搞笑表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/137_猫和老鼠懵逼问号脸搞笑表情包_6977309878859664648.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7203551198945791270",
+      "meaning": "粉兔揪住另一只兔领子，示意「你给我看这个」的对质互动。",
+      "intent": "interaction_comment",
+      "name_zh": "揪领子粉兔",
+      "materialName": "卡通可爱粉色小兔子兔兔表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/138_卡通可爱粉色小兔子兔兔表情包_7203551198945791270.gif",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7505043377612672281",
+      "meaning": "手机网购输密码，旁侧怪物被盾挡，呈现支付与风控场景。",
+      "intent": "observe_result",
+      "name_zh": "网购安全支付",
+      "materialName": "网购网络安全人物",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/139_网购网络安全人物_7505043377612672281.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7011133015774579982",
+      "meaning": "求大佬带带我",
+      "intent": "cta_claim_resource",
+      "name_zh": "求大佬带带我",
+      "materialName": "求大佬带带我",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/140_求大佬带带我_7011133015774579982.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7203348100356820261",
+      "meaning": "逐渐上头",
+      "intent": "surprise_absurd",
+      "name_zh": "逐渐上头",
+      "materialName": "逐渐上头",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/141_逐渐上头_7203348100356820261.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7245125098829581605",
+      "meaning": "真有意思",
+      "intent": "surprise_absurd",
+      "name_zh": "真有意思",
+      "materialName": "真有意思",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/142_真有意思_7245125098829581605.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6977639842880523556",
+      "meaning": "搞笑熊猫人 金馆长笑",
+      "intent": "interaction_comment",
+      "name_zh": "搞笑熊猫人 金馆长笑",
+      "materialName": "搞笑熊猫人 金馆长笑",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/143_搞笑熊猫人_金馆长笑_6977639842880523556.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7012980146361716004",
+      "meaning": "6666666 熊猫头按计算机6666表情包",
+      "intent": "cta_666",
+      "name_zh": "6666666 熊猫头按计算机6666表情包",
+      "materialName": "6666666，熊猫头按计算机6666表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/144_6666666熊猫头按计算机6666表情包_7012980146361716004.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7009354900773604644",
+      "meaning": "哟又在写bug呢",
+      "intent": "skeptical_review",
+      "name_zh": "哟又在写bug呢",
+      "materialName": "哟又在写bug呢",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/145_哟又在写bug呢_7009354900773604644.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7100561267378670883",
+      "meaning": "改好bug再和我说话",
+      "intent": "skeptical_review",
+      "name_zh": "改好bug再和我说话",
+      "materialName": "改好bug再和我说话",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/146_改好bug再和我说话_7100561267378670883.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7211703984669658426",
+      "meaning": "脑壳疼 暴躁老喵",
+      "intent": "breakdown_frustrated",
+      "name_zh": "脑壳疼 暴躁老喵",
+      "materialName": "脑壳疼-暴躁老喵",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/147_脑壳疼-暴躁老喵_7211703984669658426.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7587663300997942590",
+      "meaning": "敲键盘",
+      "intent": "observe_result",
+      "name_zh": "敲键盘",
+      "materialName": "敲键盘",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/148_敲键盘_7587663300997942590.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7578817349248224536",
+      "meaning": "芯片上的科技小熊，象征算力、智能硬件或 AI 处理中。",
+      "intent": "observe_result",
+      "name_zh": "小熊芯片",
+      "materialName": "小熊芯片",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/149_小熊芯片_7578817349248224536.png",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7017851739118390558",
+      "meaning": "金毛小狗嘴角被拉成超宽假笑，沙雕荒诞、强行尬笑。",
+      "intent": "surprise_absurd",
+      "name_zh": "歪嘴假笑狗",
+      "materialName": "可爱搞笑沙雕萌宠表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/150_可爱搞笑沙雕萌宠表情包_7017851739118390558.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "6977194749417557285",
+      "meaning": "小狗狗打电脑",
+      "intent": "observe_result",
+      "name_zh": "小狗狗打电脑",
+      "materialName": "小狗狗打电脑",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/151_小狗狗打电脑_6977194749417557285.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7604144560587033881",
+      "meaning": "粉红兔推眼镜、镜片反光配「哼」，傲娇自信、胜券在握或略带不屑。",
+      "intent": "transition_confidence",
+      "name_zh": "粉红兔子-哼哼",
+      "materialName": "粉红兔子-哼哼",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/152_粉红兔子-哼哼_7604144560587033881.png",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "6945041329160277256",
+      "meaning": "有意思",
+      "intent": "surprise_absurd",
+      "name_zh": "有意思",
+      "materialName": "有意思",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/153_有意思_6945041329160277256.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7202520046164315453",
+      "meaning": "bug 修完了吗 程序员bug系列表情包",
+      "intent": "breakdown_frustrated",
+      "name_zh": "bug 修完了吗 程序员bug系列表情包",
+      "materialName": "bug 修完了吗？——程序员bug系列表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/154_bug_修完了吗程序员bug系列表情包_7202520046164315453.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7578859038138436926",
+      "meaning": "报错出错",
+      "intent": "breakdown_frustrated",
+      "name_zh": "报错出错",
+      "materialName": "报错出错",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/155_报错出错_7578859038138436926.png",
+      "is_vip": true,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7183208082216897831",
+      "meaning": "网络卡顿",
+      "intent": "breakdown_frustrated",
+      "name_zh": "网络卡顿",
+      "materialName": "网络卡顿",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/156_网络卡顿_7183208082216897831.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7209802380601216289",
+      "meaning": "砸电脑",
+      "intent": "breakdown_frustrated",
+      "name_zh": "砸电脑",
+      "materialName": "砸电脑",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/157_砸电脑_7209802380601216289.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6913792617683684615",
+      "meaning": "搞笑男士掩面笑",
+      "intent": "awkward_silence",
+      "name_zh": "搞笑男士掩面笑",
+      "materialName": "搞笑男士掩面笑",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/158_搞笑男士掩面笑_6913792617683684615.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7342526844396227866",
+      "meaning": "男生对着清单逐项打勾并发光，表示计划落地、任务验收完成。",
+      "intent": "success_passed",
+      "name_zh": "男生在计划规划",
+      "materialName": "男生在计划规划",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/159_男生在计划规划_7342526844396227866.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "6976827831221275917",
+      "meaning": "暴躁青蛙冲刺",
+      "intent": "breakdown_frustrated",
+      "name_zh": "暴躁青蛙冲刺",
+      "materialName": "暴躁青蛙冲刺",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/160_暴躁青蛙冲刺_6976827831221275917.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7004994785199131940",
+      "meaning": "哟又在写bug呢",
+      "intent": "skeptical_review",
+      "name_zh": "哟又在写bug呢",
+      "materialName": "哟又在写bug呢",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/161_哟又在写bug呢_7004994785199131940.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7012619826061380901",
+      "meaning": "你还在分析我写的bug啊",
+      "intent": "skeptical_review",
+      "name_zh": "你还在分析我写的bug啊",
+      "materialName": "你还在分析我写的bug啊",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/162_你还在分析我写的bug啊_7012619826061380901.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6975159931943128350",
+      "meaning": "吉米·法伦西装扭动庆祝，魔性节奏，用来烘托很牛、很带感。",
+      "intent": "cta_666",
+      "name_zh": "法伦庆祝舞",
+      "materialName": "搞笑 表情包 沙雕斗图 表情 (148)",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/163_搞笑_表情包_沙雕斗图_表情_148_6975159931943128350.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7009718777856134414",
+      "meaning": "打键盘",
+      "intent": "observe_result",
+      "name_zh": "打键盘",
+      "materialName": "打键盘",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/164_打键盘_7009718777856134414.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7309034080459377974",
+      "meaning": "猫表情包可爱搞笑观察",
+      "intent": "observe_result",
+      "name_zh": "猫表情包可爱搞笑观察",
+      "materialName": "猫表情包可爱搞笑观察",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/165_猫表情包可爱搞笑观察_7309034080459377974.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7315005866804022539",
+      "meaning": "亚克力质感 AI 方块配放大镜，表示检索、探查或审视 AI 相关能力。",
+      "intent": "observe_result",
+      "name_zh": "AI科技亚克力查询探索",
+      "materialName": "ai科技亚克力查询探索",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/166_ai科技亚克力查询探索_7315005866804022539.png",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7343628567974022463",
+      "meaning": "笔记本上悬浮代码窗与齿轮，象征写代码、跑程序的日常开发状态。",
+      "intent": "observe_result",
+      "name_zh": "软件工程师",
+      "materialName": "软件工程师",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/167_软件工程师_7343628567974022463.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "6943607241677327652",
+      "meaning": "没天没夜的上班坏坏敲电脑",
+      "intent": "breakdown_frustrated",
+      "name_zh": "没天没夜的上班坏坏敲电脑",
+      "materialName": "没天没夜的上班坏坏敲电脑",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/168_没天没夜的上班坏坏敲电脑_6943607241677327652.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7476314451780603175",
+      "meaning": "圆滚滚小黄人吸管喝水、眼神发直，经典战术性喝水掩饰尴尬或沉默。",
+      "intent": "awkward_silence",
+      "name_zh": "战术喝水",
+      "materialName": "战术喝水",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/169_战术喝水_7476314451780603175.gif",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "6969578566308678919",
+      "meaning": "搞笑熊猫人 偷笑",
+      "intent": "interaction_comment",
+      "name_zh": "搞笑熊猫人 偷笑",
+      "materialName": "搞笑熊猫人 偷笑",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/170_搞笑熊猫人_偷笑_6969578566308678919.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6969839884768939272",
+      "meaning": "无字熊猫人侧身伸指，留白配文，强调「看这里/你懂的」。",
+      "intent": "interaction_comment",
+      "name_zh": "熊猫人指向",
+      "materialName": "搞笑熊猫人表情包无文字原图无字自由创作聊天怼人素材(20)",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/171_搞笑熊猫人表情包无文字原图无字自由创作聊天怼人素材20_6969839884768939272.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7360647306829516058",
+      "meaning": "气味稍许上头",
+      "intent": "surprise_absurd",
+      "name_zh": "气味稍许上头",
+      "materialName": "气味稍许上头",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/172_气味稍许上头_7360647306829516058.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7246192295194758460",
+      "meaning": "肌肉粉兔双拇指上翘坏笑，夸张点赞「牛逼/绝了」。",
+      "intent": "cta_666",
+      "name_zh": "肌肉兔666",
+      "materialName": "粉红兔子表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/173_粉红兔子表情包_7246192295194758460.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "6915326706509303048",
+      "meaning": "猫咪疯狂敲电脑表情包“加班 挣钱 养家”",
+      "intent": "breakdown_frustrated",
+      "name_zh": "猫咪疯狂敲电脑表情包“加班 挣钱 养家”",
+      "materialName": "猫咪疯狂敲电脑表情包“加班，挣钱，养家”",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/174_猫咪疯狂敲电脑表情包加班挣钱养家_6915326706509303048.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6943136922252381453",
+      "meaning": "个人乖乖的打字玩电脑TNA教皇",
+      "intent": "observe_result",
+      "name_zh": "个人乖乖的打字玩电脑TNA教皇",
+      "materialName": "个人乖乖的打字玩电脑TNA教皇",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/175_个人乖乖的打字玩电脑TNA教皇_6943136922252381453.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6944302055364316430",
+      "meaning": "戴墨镜小人配文「冷酷」，装淡定、高冷不接茬。",
+      "intent": "transition_confidence",
+      "name_zh": "冷酷墨镜",
+      "materialName": "冷酷表情包贴纸",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/176_冷酷表情包贴纸_6944302055364316430.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "6969578740435275045",
+      "meaning": "搞笑熊猫人 害羞 捂嘴",
+      "intent": "interaction_comment",
+      "name_zh": "搞笑熊猫人 害羞 捂嘴",
+      "materialName": "搞笑熊猫人 害羞 捂嘴",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/177_搞笑熊猫人_害羞_捂嘴_6969578740435275045.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6969580937969519880",
+      "meaning": "搞笑熊猫人 笑 高兴走路",
+      "intent": "success_passed",
+      "name_zh": "搞笑熊猫人 笑 高兴走路",
+      "materialName": "搞笑熊猫人 笑 高兴走路",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/178_搞笑熊猫人_笑_高兴走路_6969580937969519880.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6969585366324071710",
+      "meaning": "搞笑熊猫人拍手 鼓掌",
+      "intent": "success_passed",
+      "name_zh": "搞笑熊猫人拍手 鼓掌",
+      "materialName": "搞笑熊猫人拍手 鼓掌",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/179_搞笑熊猫人拍手_鼓掌_6969585366324071710.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6972071813102734599",
+      "meaning": "恶搞 搞怪 搞笑面具挡脸",
+      "intent": "interaction_comment",
+      "name_zh": "恶搞 搞怪 搞笑面具挡脸",
+      "materialName": "恶搞 搞怪 搞笑面具挡脸",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/180_恶搞_搞怪_搞笑面具挡脸_6972071813102734599.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6974363653998939406",
+      "meaning": "蘑菇头捂眼流泪拒听，「别说了没眼看」崩溃不想再看。",
+      "intent": "breakdown_frustrated",
+      "name_zh": "没眼看",
+      "materialName": "可爱搞笑表情包熊猫头蘑菇头没眼看",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/181_可爱搞笑表情包熊猫头蘑菇头没眼看_6974363653998939406.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "6980894357373095182",
+      "meaning": "可爱的搞怪乌鸦",
+      "intent": "interaction_comment",
+      "name_zh": "可爱的搞怪乌鸦",
+      "materialName": "可爱的搞怪乌鸦",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/182_可爱的搞怪乌鸦_6980894357373095182.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6981479674115296542",
+      "meaning": "熊猫头坏笑配「懂我意思吧」，暗示心照不宣、撩观众接梗。",
+      "intent": "interaction_comment",
+      "name_zh": "懂我意思吧",
+      "materialName": "可爱搞笑表情熊猫头懂我意思吧",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/183_可爱搞笑表情熊猫头懂我意思吧_6981479674115296542.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "6985461742826556679",
+      "meaning": "优雅 喝水 搞笑表情包",
+      "intent": "interaction_comment",
+      "name_zh": "优雅 喝水 搞笑表情包",
+      "materialName": "优雅，喝水，搞笑表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/184_优雅喝水搞笑表情包_6985461742826556679.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6985882324084739341",
+      "meaning": "就这 搞笑表情包",
+      "intent": "skeptical_review",
+      "name_zh": "就这 搞笑表情包",
+      "materialName": "就这？搞笑表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/185_就这搞笑表情包_6985882324084739341.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6993147036430372104",
+      "meaning": "网络异常 刷新重试",
+      "intent": "observe_result",
+      "name_zh": "网络异常 刷新重试",
+      "materialName": "网络异常！刷新重试",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/186_网络异常刷新重试_6993147036430372104.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "6999974771114970376",
+      "meaning": "橘猫面无表情头顶冒汗，表达无语、尴尬或不知说什么好。",
+      "intent": "awkward_silence",
+      "name_zh": "无语汗猫",
+      "materialName": "可爱搞笑猫咪狗狗表情包沙雕",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/187_可爱搞笑猫咪狗狗表情包沙雕_6999974771114970376.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7310587139018804499",
+      "meaning": "狗表情包可爱搞笑what什么",
+      "intent": "confused",
+      "name_zh": "狗表情包可爱搞笑what什么",
+      "materialName": "狗表情包可爱搞笑what什么",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/188_狗表情包可爱搞笑what什么_7310587139018804499.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7006121776811953416",
+      "meaning": "有意思滑稽耍枪",
+      "intent": "surprise_absurd",
+      "name_zh": "有意思滑稽耍枪",
+      "materialName": "有意思滑稽耍枪",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/189_有意思滑稽耍枪_7006121776811953416.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7006186971370507551",
+      "meaning": "猫咪电脑打字工作表情包",
+      "intent": "observe_result",
+      "name_zh": "猫咪电脑打字工作表情包",
+      "materialName": "猫咪电脑打字工作表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/190_猫咪电脑打字工作表情包_7006186971370507551.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7010367217648913701",
+      "meaning": "个人乖乖的打字玩电脑TNA教皇",
+      "intent": "observe_result",
+      "name_zh": "个人乖乖的打字玩电脑TNA教皇",
+      "materialName": "个人乖乖的打字玩电脑TNA教皇",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/191_个人乖乖的打字玩电脑TNA教皇_7010367217648913701.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7011066357403913509",
+      "meaning": "泪流满面",
+      "intent": "breakdown_frustrated",
+      "name_zh": "泪流满面",
+      "materialName": "泪流满面",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/192_泪流满面_7011066357403913509.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7023397673680112927",
+      "meaning": "bug找完了吗还有空聊天",
+      "intent": "breakdown_frustrated",
+      "name_zh": "bug找完了吗还有空聊天",
+      "materialName": "bug找完了吗还有空聊天",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/193_bug找完了吗还有空聊天_7023397673680112927.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7023404108178525454",
+      "meaning": "简笔画人脸写满 BUG，表示程序出错、故障或开发崩溃瞬间。",
+      "intent": "breakdown_frustrated",
+      "name_zh": "BUG脸",
+      "materialName": "BUG",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/194_BUG_7023404108178525454.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7023684325333929229",
+      "meaning": "吓得我程序都出bug了表情包",
+      "intent": "surprise_absurd",
+      "name_zh": "吓得我程序都出bug了表情包",
+      "materialName": "吓得我程序都出bug了表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/195_吓得我程序都出bug了表情包_7023684325333929229.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7026356230083857671",
+      "meaning": "喝水 企鹅表情包",
+      "intent": "interaction_comment",
+      "name_zh": "喝水 企鹅表情包",
+      "materialName": "喝水 企鹅表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/196_喝水_企鹅表情包_7026356230083857671.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7035507146817031431",
+      "meaning": "情绪逐渐暴躁",
+      "intent": "breakdown_frustrated",
+      "name_zh": "情绪逐渐暴躁",
+      "materialName": "情绪逐渐暴躁",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/197_情绪逐渐暴躁_7035507146817031431.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7096789701490707720",
+      "meaning": "对方不想和你说话并向你扔了一堆BUG",
+      "intent": "helpless_resigned",
+      "name_zh": "对方不想和你说话并向你扔了一堆BUG",
+      "materialName": "对方不想和你说话并向你扔了一堆BUG",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/198_对方不想和你说话并向你扔了一堆BUG_7096789701490707720.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7096791583328095524",
+      "meaning": "保证不生成新Bug",
+      "intent": "skeptical_review",
+      "name_zh": "保证不生成新Bug",
+      "materialName": "保证不生成新Bug",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/199_保证不生成新Bug_7096791583328095524.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7096792107767106829",
+      "meaning": "你别急 等我剪完这个头发再修Bug",
+      "intent": "skeptical_review",
+      "name_zh": "你别急 等我剪完这个头发再修Bug",
+      "materialName": "你别急，等我剪完这个头发再修Bug",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/200_你别急等我剪完这个头发再修Bug_7096792107767106829.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7096877566342024455",
+      "meaning": "狗狗抿嘴憋笑、眼神发直，适合尴尬场面或强忍不笑的反应。",
+      "intent": "awkward_silence",
+      "name_zh": "憋笑狗",
+      "materialName": "搞笑表情包 尴尬",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/201_搞笑表情包_尴尬_7096877566342024455.gif",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7096890739824626957",
+      "meaning": "女生握拳激动到飙泪，表达太感动、太兴奋或结果超出预期。",
+      "intent": "success_passed",
+      "name_zh": "激动到哭",
+      "materialName": "搞笑表情包 激动",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/202_搞笑表情包_激动_7096890739824626957.gif",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7096973092995484935",
+      "meaning": "笑哭了搞笑",
+      "intent": "interaction_comment",
+      "name_zh": "笑哭了搞笑",
+      "materialName": "笑哭了搞笑",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/203_笑哭了搞笑_7096973092995484935.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7099620858926320931",
+      "meaning": "不要打扰我写bug",
+      "intent": "skeptical_review",
+      "name_zh": "不要打扰我写bug",
+      "materialName": "不要打扰我写bug",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/204_不要打扰我写bug_7099620858926320931.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7104196147484331277",
+      "meaning": "你从我脸上看到了什么 bug表情包",
+      "intent": "confused",
+      "name_zh": "你从我脸上看到了什么 bug表情包",
+      "materialName": "你从我脸上看到了什么？bug表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/205_你从我脸上看到了什么bug表情包_7104196147484331277.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7104454675528764713",
+      "meaning": "完了完了我完了",
+      "intent": "breakdown_frustrated",
+      "name_zh": "完了完了我完了",
+      "materialName": "完了完了我完了",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/206_完了完了我完了_7104454675528764713.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7104663852201037064",
+      "meaning": "猫咪竖大拇指配「牛!!!」，用来夸厉害、点赞或认可表现。",
+      "intent": "cta_666",
+      "name_zh": "猫比耶牛",
+      "materialName": "搞笑表情包-151",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/207_搞笑表情包-151_7104663852201037064.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7121914291481054497",
+      "meaning": "绿色怪脸张大嘴配 amazing，夸张表达震惊、离谱或荒诞惊喜。",
+      "intent": "surprise_absurd",
+      "name_zh": "Amazing怪脸",
+      "materialName": "搞笑表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/208_搞笑表情包_7121914291481054497.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7161782040856136968",
+      "meaning": "上班疯狂敲键盘打工人表情包",
+      "intent": "breakdown_frustrated",
+      "name_zh": "上班疯狂敲键盘打工人表情包",
+      "materialName": "上班疯狂敲键盘打工人表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/209_上班疯狂敲键盘打工人表情包_7161782040856136968.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7171397931600203038",
+      "meaning": "诶 挺有意思的 熊猫头表情表情包",
+      "intent": "surprise_absurd",
+      "name_zh": "诶 挺有意思的 熊猫头表情表情包",
+      "materialName": "诶，挺有意思的 - 熊猫头表情表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/210_诶挺有意思的_-_熊猫头表情表情包_7171397931600203038.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7173910644436126990",
+      "meaning": "真有意思",
+      "intent": "surprise_absurd",
+      "name_zh": "真有意思",
+      "materialName": "真有意思",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/211_真有意思_7173910644436126990.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7182496460347280695",
+      "meaning": "带我一个带我一个",
+      "intent": "cta_claim_resource",
+      "name_zh": "带我一个带我一个",
+      "materialName": "带我一个带我一个",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/212_带我一个带我一个_7182496460347280695.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7202621143554051387",
+      "meaning": "完了 你的程序出bug了 程序员bug系列表情包",
+      "intent": "breakdown_frustrated",
+      "name_zh": "完了 你的程序出bug了 程序员bug系列表情包",
+      "materialName": "完了，你的程序出bug了——程序员bug系列表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/213_完了你的程序出bug了程序员bug系列表情包_7202621143554051387.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7203582718435773728",
+      "meaning": "粉色兔子扶额闭眼，表现头疼、崩溃或被事情折磨到受不了。",
+      "intent": "breakdown_frustrated",
+      "name_zh": "扶额头疼兔",
+      "materialName": "卡通可爱粉色小兔子兔兔表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/214_卡通可爱粉色小兔子兔兔表情包_7203582718435773728.gif",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7204021024915082535",
+      "meaning": "粉兔双手捂脸、瞪眼张嘴，呈现极度震惊或不敢置信。",
+      "intent": "surprise_absurd",
+      "name_zh": "震惊粉兔",
+      "materialName": "卡通可爱粉色小兔子兔兔表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/215_卡通可爱粉色小兔子兔兔表情包_7204021024915082535.gif",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7209098395355598117",
+      "meaning": "完了完了",
+      "intent": "breakdown_frustrated",
+      "name_zh": "完了完了",
+      "materialName": "完了完了",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/216_完了完了_7209098395355598117.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7215846210492566788",
+      "meaning": "3D 黄脸向上看、头顶问号，表示疑惑、想不通或正在琢磨。",
+      "intent": "confused",
+      "name_zh": "问号思考脸",
+      "materialName": "疑问不解",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/217_疑问不解_7215846210492566788.gif",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7226251756966104379",
+      "meaning": "带带我",
+      "intent": "cta_claim_resource",
+      "name_zh": "带带我",
+      "materialName": "带带我",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/218_带带我_7226251756966104379.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7242676092337786171",
+      "meaning": "这蛮有意思的",
+      "intent": "surprise_absurd",
+      "name_zh": "这蛮有意思的",
+      "materialName": "这蛮有意思的",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/219_这蛮有意思的_7242676092337786171.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7246191579940146492",
+      "meaning": "粉红兔子咬牙颤抖，传达愤怒、抓狂或情绪即将爆发。",
+      "intent": "breakdown_frustrated",
+      "name_zh": "咬牙崩溃兔",
+      "materialName": "粉红兔子表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/220_粉红兔子表情包_7246191579940146492.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7256948905781333260",
+      "meaning": "猫咪脸周围铺满数学公式，经典「算不明白」的迷惑思考梗。",
+      "intent": "confused",
+      "name_zh": "数学迷惑猫",
+      "materialName": "搞笑表情包",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/221_搞笑表情包_7256948905781333260.gif",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7294159798990343463",
+      "meaning": "重复排列的 3D 红色三角感叹号，用于警示、划重点或提醒观众注意。",
+      "intent": "interaction_comment",
+      "name_zh": "互动警示",
+      "materialName": "互动警示",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/222_互动警示_7294159798990343463.png",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7297873160534281484",
+      "meaning": "鼠鼠 真有意思捏",
+      "intent": "surprise_absurd",
+      "name_zh": "鼠鼠 真有意思捏",
+      "materialName": "鼠鼠 真有意思捏",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/223_鼠鼠_真有意思捏_7297873160534281484.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7359557910982069558",
+      "meaning": "太上头了",
+      "intent": "surprise_absurd",
+      "name_zh": "太上头了",
+      "materialName": "太上头了",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/224_太上头了_7359557910982069558.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7343627436543790390",
+      "meaning": "齿轮与扳手立于展台，强调底层机制、硬件原理或动手排查根因。",
+      "intent": "realization_root_cause",
+      "name_zh": "硬件工程师",
+      "materialName": "硬件工程师",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/225_硬件工程师_7343627436543790390.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7346866962825268489",
+      "meaning": "砸电脑",
+      "intent": "breakdown_frustrated",
+      "name_zh": "砸电脑",
+      "materialName": "砸电脑",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/226_砸电脑_7346866962825268489.png",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7354683069141372214",
+      "meaning": "流泪猫猫盯电脑，配文网络是虚拟的，表达网伤后的无奈与认命。",
+      "intent": "helpless_resigned",
+      "name_zh": "网络是虚拟的",
+      "materialName": "网络是虚拟的",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/227_网络是虚拟的_7354683069141372214.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7358382886589926668",
+      "meaning": "小事一桩",
+      "intent": "success_passed",
+      "name_zh": "小事一桩",
+      "materialName": "小事一桩",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/228_小事一桩_7358382886589926668.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7359881133342969139",
+      "meaning": "完了",
+      "intent": "breakdown_frustrated",
+      "name_zh": "完了",
+      "materialName": "完了",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/229_完了_7359881133342969139.gif",
+      "is_vip": false,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7383961491864620297",
+      "meaning": "黄粉蓝像素风伪代码与日志块重复铺排，营造盯屏看输出、查配置的 tech 氛围。",
+      "intent": "observe_result",
+      "name_zh": "电脑代码彩色像素字母装饰",
+      "materialName": "电脑代码彩色像素字母装饰",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/230_电脑代码彩色像素字母装饰_7383961491864620297.png",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7534373903783939353",
+      "meaning": "毛绒感微笑白云贴纸，轻量可爱，适合柔和点评或缓和语气。",
+      "intent": "interaction_comment",
+      "name_zh": "可爱小云朵",
+      "materialName": "可爱小云朵",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/231_可爱小云朵_7534373903783939353.png",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7439209352260635916",
+      "meaning": "综艺情绪文字 崩溃",
+      "intent": "breakdown_frustrated",
+      "name_zh": "综艺情绪文字 崩溃",
+      "materialName": "综艺情绪文字-崩溃",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/232_综艺情绪文字-崩溃_7439209352260635916.png",
+      "is_vip": true,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7532898744660987161",
+      "meaning": "棉花糖风白兔闭眼比耶，传递搞定、过关或小庆祝的轻松胜利感。",
+      "intent": "success_passed",
+      "name_zh": "marshmellow小兔比耶",
+      "materialName": "marshmellow小兔比耶",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/233_marshmellow小兔比耶_7532898744660987161.png",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7578839970098482494",
+      "meaning": "护目镜小熊头外原子轨道旋转，表示动脑分析、推演逻辑或找问题症结。",
+      "intent": "realization_root_cause",
+      "name_zh": "思考",
+      "materialName": "思考",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/234_思考_7578839970098482494.png",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7578866430326885657",
+      "meaning": "机甲小熊指向柱状图与折线图，表示看数据、对报表或验收指标结果。",
+      "intent": "observe_result",
+      "name_zh": "报表",
+      "materialName": "报表",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/235_报表_7578866430326885657.png",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7604044770901511486",
+      "meaning": "粉红兔子 点赞关注评论",
+      "intent": "cta_666",
+      "name_zh": "粉红兔子 点赞关注评论",
+      "materialName": "粉红兔子-点赞关注评论",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/236_粉红兔子-点赞关注评论_7604044770901511486.png",
+      "is_vip": true,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7604108253714419006",
+      "meaning": "粉红兔子 权威",
+      "intent": "skeptical_review",
+      "name_zh": "粉红兔子 权威",
+      "materialName": "粉红兔子-权威",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/237_粉红兔子-权威_7604108253714419006.png",
+      "is_vip": true,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7604132455184125208",
+      "meaning": "粉红兔子 超赞",
+      "intent": "cta_666",
+      "name_zh": "粉红兔子 超赞",
+      "materialName": "粉红兔子-超赞",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/238_粉红兔子-超赞_7604132455184125208.png",
+      "is_vip": true,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7604291499366370585",
+      "meaning": "粉红兔子 互动 求关注",
+      "intent": "cta_666",
+      "name_zh": "粉红兔子 互动 求关注",
+      "materialName": "粉红兔子-互动-求关注",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/239_粉红兔子-互动-求关注_7604291499366370585.png",
+      "is_vip": true,
+      "label_status": "name_labeled_kb10000"
+    },
+    {
+      "resource_id": "7605567964758232345",
+      "meaning": "手绘风笔记本屏幕有文件夹与鼠标指针，表示在电脑上找文件、点选操作。",
+      "intent": "observe_result",
+      "name_zh": "电脑",
+      "materialName": "电脑",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/240_电脑_7605567964758232345.png",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7621127968252759358",
+      "meaning": "像素猪头趴栏、八字眼下垂，一脸累觉不爱、无力吐槽的丧萌态。",
+      "intent": "helpless_resigned",
+      "name_zh": "像素小猪",
+      "materialName": "像素小猪",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/241_像素小猪_7621127968252759358.png",
+      "is_vip": true,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7632305334723398955",
+      "meaning": "小马皱眉狂敲键盘、冒汗，刻画上班赶工、被需求逼到破防的瞬间。",
+      "intent": "breakdown_frustrated",
+      "name_zh": "上班小马",
+      "materialName": "上班小马",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/242_上班小马_7632305334723398955.gif",
+      "is_vip": false,
+      "label_status": "vision_labeled_kb10000"
+    },
+    {
+      "resource_id": "7676058219344858393",
+      "meaning": "互动引导粘土风 绿色打勾",
+      "intent": "success_passed",
+      "name_zh": "互动引导粘土风 绿色打勾",
+      "materialName": "互动引导粘土风-绿色打勾",
+      "preview": "assets/emotional_image_for_cut/16_剪映原生贴纸_jianying/243_互动引导粘土风-绿色打勾_7676058219344858393.png",
+      "is_vip": true,
+      "label_status": "name_labeled_kb10000"
+    }
+  ]
+}

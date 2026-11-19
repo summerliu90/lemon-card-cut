@@ -1,0 +1,33 @@
+[
+  {
+    "file": "series-reference-assets/kb255-funnel.png",
+    "sha256": "a8c34bb57f0639baaffe3fc95448c98a32eabe7b44c504ed27d83abeff3f4bd2",
+    "source_draft": "kb-255-小石-10 无人物动态卡片-插画动效v3",
+    "source_material": "/Users/huahua/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/kb-255-小石-10 无人物动态卡片-插画动效v3/materials/2b6a2720acb828a1260ffeca278a5876.png",
+    "role": "无人物主插画材质与完整度样本；不是完整画面截图，不作为IP身份参考",
+    "original_generation_prompt_available": false
+  },
+  {
+    "file": "series-reference-assets/kb255-process.png",
+    "sha256": "646e42425c97eb1fb80a903f4f0df7e6897fcff814f856790a2930005fed50ac",
+    "source_draft": "kb-255-小石-10 无人物动态卡片-插画动效v3",
+    "source_material": "/Users/huahua/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/kb-255-小石-10 无人物动态卡片-插画动效v3/materials/5d3d0c5d1d4b47ea6dc1b8d0244500ec.png",
+    "role": "无人物主插画材质与完整度样本；不是完整画面截图，不作为IP身份参考",
+    "original_generation_prompt_available": false
+  },
+  {
+    "file": "series-reference-assets/kb255-evidence.png",
+    "sha256": "ba7c74e7897c35ca2b24fef88967c8e9b6b81bdcfff4d15556c40b5ec9ff36e1",
+    "source_draft": "kb-255-小石-10 无人物动态卡片-插画动效v3",
+    "source_material": "/Users/huahua/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/kb-255-小石-10 无人物动态卡片-插画动效v3/materials/2bf77c5fdb4a9f44c4e7014d228436d2.png",
+    "role": "无人物主插画材质与完整度样本；不是完整画面截图，不作为IP身份参考",
+    "original_generation_prompt_available": false
+  },
+  {
+    "file": "series-reference-assets/xiaohei-scene-reference.png",
+    "sha256": "586bc88af928ca57fcd43c17f4e4566ee891967fb9a4ff5ed0e2455078618029",
+    "source_file": "/Users/huahua/Documents/ai_code/output/20261117-kb-051-xiaohei-v3/01-shot-list/xiaohei-reference.png",
+    "role": "已沿用的小黑身份及完整情境参考，只提取身份/线条/语义互动，不复制其中知识与红蓝文字",
+    "original_generation_prompt_available": false
+  }
+]

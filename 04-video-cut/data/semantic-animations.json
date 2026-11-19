@@ -1,0 +1,508 @@
+{
+  "version": 2,
+  "name": "教程口播语义动画剪辑",
+  "animation_policy": {
+    "strategy": "semantic",
+    "provider": "jianying",
+    "member_enabled": true,
+    "allow_pending_member_in_draft": true,
+    "require_manual_review_before_export": true,
+    "max_primary_styles_per_video": 6,
+    "max_intro_per_segment": 1,
+    "no_consecutive_repeat": true,
+    "reuse_asset_intro": "none",
+    "reuse_asset_motion": "camera_keyframes",
+    "ordinary_subtitle_animation": false,
+    "knowledge_intensity": "subtle",
+    "note": "会员动画可写入草稿，但必须在国内剪映会员账号中打开检查。语义不匹配时宁可使用 neutral，不随机轮播。"
+  },
+  "animation_intents": [
+    "neutral",
+    "knowledge",
+    "comparison",
+    "conclusion",
+    "cta",
+    "surprise",
+    "confusion",
+    "welfare",
+    "error"
+  ],
+  "semantic_image_animation_pools": {
+    "neutral": {
+      "intensity": "subtle",
+      "intro": [
+        {
+          "name": "渐显",
+          "resource_id": "6798320778182922760",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "轻微放大",
+          "resource_id": "6800268825611735559",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": true
+        },
+        {
+          "name": "向上滑动",
+          "resource_id": "6798333487523828238",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": true
+        }
+      ]
+    },
+    "knowledge": {
+      "intensity": "subtle",
+      "triggers": [
+        "配置",
+        "请求",
+        "数据",
+        "断言",
+        "流程",
+        "框架",
+        "字段",
+        "状态",
+        "步骤",
+        "方法"
+      ],
+      "intro": [
+        {
+          "name": "轻微放大",
+          "resource_id": "6800268825611735559",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": true
+        },
+        {
+          "name": "渐显",
+          "resource_id": "6798320778182922760",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "向上滑动",
+          "resource_id": "6798333487523828238",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": true
+        }
+      ]
+    },
+    "comparison": {
+      "intensity": "medium",
+      "triggers": [
+        "对比",
+        "以前",
+        "现在",
+        "不是",
+        "而是",
+        "左边",
+        "右边",
+        "前后"
+      ],
+      "intro": [
+        {
+          "name": "侧滑",
+          "resource_id": "7239559299196785209",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "画面擦除",
+          "resource_id": "7448898555617481226",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "翻书",
+          "resource_id": "7452662871550333477",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "向左滑动",
+          "resource_id": "6798332871267324423",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": true
+        },
+        {
+          "name": "向右滑动",
+          "resource_id": "6798333076469453320",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": true
+        }
+      ]
+    },
+    "conclusion": {
+      "intensity": "medium",
+      "triggers": [
+        "结论",
+        "关键是",
+        "本质",
+        "更稳妥",
+        "记住",
+        "所以"
+      ],
+      "intro": [
+        {
+          "name": "展开",
+          "resource_id": "7221413342257091133",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "弹近",
+          "resource_id": "7314144465944318502",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "探灯聚焦",
+          "resource_id": "7435897594074649114",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "模糊聚焦",
+          "resource_id": "7337937899704291866",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "轻微放大",
+          "resource_id": "6800268825611735559",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": true
+        }
+      ]
+    },
+    "cta": {
+      "intensity": "medium",
+      "triggers": [
+        "评论区",
+        "关注",
+        "点赞",
+        "666",
+        "领取",
+        "说说"
+      ],
+      "intro": [
+        {
+          "name": "神奇弹窗",
+          "resource_id": "7467842885740663306",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "弹近",
+          "resource_id": "7314144465944318502",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "波纹弹动",
+          "resource_id": "7345731405663441460",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "动感放大",
+          "resource_id": "6740867832570974733",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        }
+      ],
+      "loop": [
+        {
+          "name": "回弹伸缩",
+          "resource_id": "6795425591014199822",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "surprise": {
+      "intensity": "strong",
+      "triggers": [
+        "震惊",
+        "好家伙",
+        "居然",
+        "离谱",
+        "没想到",
+        "这也行"
+      ],
+      "intro": [
+        {
+          "name": "闪现",
+          "resource_id": "7210363235906622012",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "震波 II",
+          "resource_id": "7211042099737662009",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "交叉震动",
+          "resource_id": "7222990639984546360",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "抖动变焦",
+          "resource_id": "7156911481563386381",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "上下抖动",
+          "resource_id": "6739418390030455300",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "confusion": {
+      "intensity": "medium",
+      "triggers": [
+        "奇怪",
+        "疑惑",
+        "为什么",
+        "没讲清楚",
+        "答不上来",
+        "看不懂",
+        "怎么办"
+      ],
+      "intro": [
+        {
+          "name": "轻微抖动",
+          "resource_id": "6739418227031413256",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "左右抖动",
+          "resource_id": "6739418540421419524",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "钟摆",
+          "resource_id": "6803260897117606414",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "welfare": {
+      "intensity": "medium",
+      "triggers": [
+        "福利",
+        "免费领",
+        "送你",
+        "带走",
+        "礼物",
+        "彩蛋"
+      ],
+      "intro": [
+        {
+          "name": "粒子爱心",
+          "resource_id": "7468589731727544882",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "魔法粒子II",
+          "resource_id": "7446673584296038949",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "心形放大",
+          "resource_id": "7042968847070007844",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "动感放大",
+          "resource_id": "6740867832570974733",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        }
+      ]
+    },
+    "error": {
+      "intensity": "strong",
+      "triggers": [
+        "失败",
+        "错误",
+        "异常",
+        "挂了",
+        "崩了",
+        "结果不对",
+        "故障"
+      ],
+      "intro": [
+        {
+          "name": "负片闪屏",
+          "resource_id": "7434055685576331785",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "老电视",
+          "resource_id": "7290754106417746491",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "马赛克",
+          "resource_id": "7282703408383922745",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "空间扭曲",
+          "resource_id": "7298688232294715931",
+          "is_vip": true,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        },
+        {
+          "name": "轻微抖动 II",
+          "resource_id": "6739418677910704651",
+          "is_vip": false,
+          "verified_in_metadata": true,
+          "verified_in_jianying": false
+        }
+      ]
+    }
+  },
+  "outro_policy": {
+    "enabled_for": [
+      "chapter_end",
+      "cta",
+      "sticker_exit"
+    ],
+    "disabled_for": [
+      "ordinary_knowledge",
+      "reuse_asset"
+    ],
+    "candidates": [
+      {
+        "name": "渐隐",
+        "is_vip": false,
+        "verified_in_jianying": true
+      },
+      {
+        "name": "向下滑动",
+        "resource_id": "6798333787986989576",
+        "is_vip": true,
+        "verified_in_jianying": false
+      },
+      {
+        "name": "噪点渐隐",
+        "resource_id": "7522413719364619536",
+        "is_vip": true,
+        "verified_in_jianying": false
+      }
+    ]
+  },
+  "text_animation_policy": {
+    "ordinary_subtitle": {
+      "enabled": false
+    },
+    "title_or_keyword_only": true,
+    "max_animated_text_per_30s": 2,
+    "member_candidates": [
+      {
+        "name": "波浪弹入",
+        "resource_id": "6918927741362377218",
+        "is_vip": true,
+        "verified_in_jianying": false,
+        "intent": "cta"
+      },
+      {
+        "name": "弹入跳动",
+        "resource_id": "7232171569563308545",
+        "is_vip": true,
+        "verified_in_jianying": false,
+        "intent": "cta"
+      },
+      {
+        "name": "闪现入场",
+        "resource_id": "7594683770200919297",
+        "is_vip": true,
+        "verified_in_jianying": false,
+        "intent": "surprise"
+      },
+      {
+        "name": "像素显现",
+        "resource_id": "7583738031371291921",
+        "is_vip": true,
+        "verified_in_jianying": false,
+        "intent": "error"
+      }
+    ]
+  },
+  "camera_motion": {
+    "enabled": true,
+    "scale_max": 1.25,
+    "max_beats_per_asset": 3,
+    "static_state_max_s": 8,
+    "push_duration_ratio_min": 0.15,
+    "push_duration_ratio_max": 0.25,
+    "motions": [
+      "hold",
+      "push_in",
+      "pull_out",
+      "pan",
+      "cut"
+    ]
+  },
+  "image_intro_fallback": {
+    "下滑擦除": "画面擦除",
+    "滚动点击": "向上滚动",
+    "动感弹窗": "神奇弹窗",
+    "向左翻开": "翻书",
+    "交互点击": "弹近"
+  },
+  "image_intro_duration": "min(动画默认时长, 镜头时长*0.4)，且不少于 0.25s、结束前留 80ms",
+  "scope": "语义资源选择参考，01与02布局优先；不继承原流程固定贴纸占比、95%缩放或单帧两图限制。"
+}

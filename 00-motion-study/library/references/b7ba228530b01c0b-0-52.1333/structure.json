@@ -1,0 +1,106 @@
+{
+  "source_sha256": "b7ba228530b01c0bbde2e1d2b7f20efcf06b44a7ca2d38033db3be8460d2999e",
+  "timing_precision": "estimated_from_frames",
+  "audio_status": "no_audio_stream",
+  "semantic_basis": "从可见字幕和素材关系判断叙事角色，不作音频转写",
+  "segments": [
+    {
+      "start_s": 0,
+      "end_s": 2.5,
+      "role": "证据钩子",
+      "visual_sequence": "短标题→多截图错位叠加",
+      "relation": "唯一需要马上读到的是短标题"
+    },
+    {
+      "start_s": 2.5,
+      "end_s": 4.1,
+      "role": "误区否定",
+      "visual_sequence": "描边短词→叉号覆盖",
+      "relation": "明确转折"
+    },
+    {
+      "start_s": 4.1,
+      "end_s": 7.7,
+      "role": "证据到结论",
+      "visual_sequence": "多页证据入场→背景退淡→结论前置",
+      "relation": "证明和结论分时占注意力"
+    },
+    {
+      "start_s": 7.7,
+      "end_s": 11.5,
+      "role": "情境解释",
+      "visual_sequence": "实拍→背景虚化→人物→问题短字/问号",
+      "relation": "从场景到抽象问题"
+    },
+    {
+      "start_s": 11.5,
+      "end_s": 15.7,
+      "role": "工具桥段",
+      "visual_sequence": "暗色工具屏录自身的界面变化",
+      "relation": "区分录屏内部动画和后期剪辑动画"
+    },
+    {
+      "start_s": 15.7,
+      "end_s": 19.1,
+      "role": "问题到步骤",
+      "visual_sequence": "问题短句→步骤胶囊→顶部主题条",
+      "relation": "步骤导航和本步总题分层"
+    },
+    {
+      "start_s": 19.1,
+      "end_s": 26.3,
+      "role": "第一步：知识枚举",
+      "visual_sequence": "新卡逐张入场、旧卡横移重排；末尾反应贴纸",
+      "relation": "集合不断增大；不每次重播整页"
+    },
+    {
+      "start_s": 26.3,
+      "end_s": 29.1,
+      "role": "第二步：工具总览",
+      "visual_sequence": "步骤胶囊→大分类卡",
+      "relation": "先看地图，再看细节"
+    },
+    {
+      "start_s": 29.1,
+      "end_s": 35.7,
+      "role": "第二步：专题细分",
+      "visual_sequence": "双卡→中间前置卡→右侧工具截图/教程",
+      "relation": "层级和局部覆盖表达知识累积"
+    },
+    {
+      "start_s": 35.7,
+      "end_s": 39.5,
+      "role": "第三步：实践",
+      "visual_sequence": "步骤胶囊→操作实拍",
+      "relation": "降低视觉密度，连接实践"
+    },
+    {
+      "start_s": 39.5,
+      "end_s": 43.5,
+      "role": "项目举例",
+      "visual_sequence": "单项目卡→第二项目加入并排",
+      "relation": "用作品说明应用类型"
+    },
+    {
+      "start_s": 43.5,
+      "end_s": 46.1,
+      "role": "工作情境",
+      "visual_sequence": "办公实拍满屏",
+      "relation": "留节奏呼吸，准备总结"
+    },
+    {
+      "start_s": 46.1,
+      "end_s": 50.9,
+      "role": "合集",
+      "visual_sequence": "卷页状展开→一主两辅；主文档向上滚",
+      "relation": "版式稳定，局部内容变化"
+    },
+    {
+      "start_s": 50.9,
+      "end_s": 52.133333,
+      "role": "结束",
+      "visual_sequence": "合集保持，中央单短词落稳",
+      "relation": "只在目标文案需要时加入行动提示"
+    }
+  ]
+}

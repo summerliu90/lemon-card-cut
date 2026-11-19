@@ -1,0 +1,598 @@
+{
+  "version": "2026-10-16",
+  "source": "MiniMax /v1/get_voice + local active clone mappings",
+  "voice_types": [
+    {
+      "code": 1,
+      "label": "系统声音",
+      "id": "system"
+    },
+    {
+      "code": 2,
+      "label": "自有克隆",
+      "id": "clone"
+    }
+  ],
+  "voices": [
+    {
+      "type": "system",
+      "label": "青涩青年音色",
+      "id": "青涩青年音色",
+      "voice_id": "male-qn-qingse",
+      "aliases": [],
+      "code": 1
+    },
+    {
+      "type": "system",
+      "label": "精英青年音色",
+      "id": "精英青年音色",
+      "voice_id": "male-qn-jingying",
+      "aliases": [],
+      "code": 2
+    },
+    {
+      "type": "system",
+      "label": "霸道青年音色",
+      "id": "霸道青年音色",
+      "voice_id": "male-qn-badao",
+      "aliases": [],
+      "code": 3
+    },
+    {
+      "type": "system",
+      "label": "青年大学生音色",
+      "id": "青年大学生音色",
+      "voice_id": "male-qn-daxuesheng",
+      "aliases": [],
+      "code": 4
+    },
+    {
+      "type": "system",
+      "label": "少女音色",
+      "id": "少女音色",
+      "voice_id": "female-shaonv",
+      "aliases": [],
+      "code": 5
+    },
+    {
+      "type": "system",
+      "label": "御姐音色",
+      "id": "御姐音色",
+      "voice_id": "female-yujie",
+      "aliases": [],
+      "code": 6
+    },
+    {
+      "type": "system",
+      "label": "成熟女性音色",
+      "id": "成熟女性音色",
+      "voice_id": "female-chengshu",
+      "aliases": [],
+      "code": 7
+    },
+    {
+      "type": "system",
+      "label": "甜美女性音色",
+      "id": "甜美女性音色",
+      "voice_id": "female-tianmei",
+      "aliases": [],
+      "code": 8
+    },
+    {
+      "type": "system",
+      "label": "青涩青年音色-beta",
+      "id": "青涩青年音色-beta",
+      "voice_id": "male-qn-qingse-jingpin",
+      "aliases": [],
+      "code": 9
+    },
+    {
+      "type": "system",
+      "label": "精英青年音色-beta",
+      "id": "精英青年音色-beta",
+      "voice_id": "male-qn-jingying-jingpin",
+      "aliases": [],
+      "code": 10
+    },
+    {
+      "type": "system",
+      "label": "霸道青年音色-beta",
+      "id": "霸道青年音色-beta",
+      "voice_id": "male-qn-badao-jingpin",
+      "aliases": [],
+      "code": 11
+    },
+    {
+      "type": "system",
+      "label": "青年大学生音色-beta",
+      "id": "青年大学生音色-beta",
+      "voice_id": "male-qn-daxuesheng-jingpin",
+      "aliases": [],
+      "code": 12
+    },
+    {
+      "type": "system",
+      "label": "少女音色-beta",
+      "id": "少女音色-beta",
+      "voice_id": "female-shaonv-jingpin",
+      "aliases": [],
+      "code": 13
+    },
+    {
+      "type": "system",
+      "label": "御姐音色-beta",
+      "id": "御姐音色-beta",
+      "voice_id": "female-yujie-jingpin",
+      "aliases": [],
+      "code": 14
+    },
+    {
+      "type": "system",
+      "label": "成熟女性音色-beta",
+      "id": "成熟女性音色-beta",
+      "voice_id": "female-chengshu-jingpin",
+      "aliases": [],
+      "code": 15
+    },
+    {
+      "type": "system",
+      "label": "甜美女性音色-beta",
+      "id": "甜美女性音色-beta",
+      "voice_id": "female-tianmei-jingpin",
+      "aliases": [],
+      "code": 16
+    },
+    {
+      "type": "system",
+      "label": "聪明男童",
+      "id": "聪明男童",
+      "voice_id": "clever_boy",
+      "aliases": [],
+      "code": 17
+    },
+    {
+      "type": "system",
+      "label": "可爱男童",
+      "id": "可爱男童",
+      "voice_id": "cute_boy",
+      "aliases": [],
+      "code": 18
+    },
+    {
+      "type": "system",
+      "label": "萌萌女童",
+      "id": "萌萌女童",
+      "voice_id": "lovely_girl",
+      "aliases": [],
+      "code": 19
+    },
+    {
+      "type": "system",
+      "label": "卡通猪小琪",
+      "id": "卡通猪小琪",
+      "voice_id": "cartoon_pig",
+      "aliases": [],
+      "code": 20
+    },
+    {
+      "type": "system",
+      "label": "病娇弟弟",
+      "id": "病娇弟弟",
+      "voice_id": "bingjiao_didi",
+      "aliases": [],
+      "code": 21
+    },
+    {
+      "type": "system",
+      "label": "俊朗男友",
+      "id": "俊朗男友",
+      "voice_id": "junlang_nanyou",
+      "aliases": [],
+      "code": 22
+    },
+    {
+      "type": "system",
+      "label": "纯真学弟",
+      "id": "纯真学弟",
+      "voice_id": "chunzhen_xuedi",
+      "aliases": [],
+      "code": 23
+    },
+    {
+      "type": "system",
+      "label": "冷淡学长",
+      "id": "冷淡学长",
+      "voice_id": "lengdan_xiongzhang",
+      "aliases": [],
+      "code": 24
+    },
+    {
+      "type": "system",
+      "label": "霸道少爷",
+      "id": "霸道少爷",
+      "voice_id": "badao_shaoye",
+      "aliases": [],
+      "code": 25
+    },
+    {
+      "type": "system",
+      "label": "甜心小玲",
+      "id": "甜心小玲",
+      "voice_id": "tianxin_xiaoling",
+      "aliases": [],
+      "code": 26
+    },
+    {
+      "type": "system",
+      "label": "俏皮萌妹",
+      "id": "俏皮萌妹",
+      "voice_id": "qiaopi_mengmei",
+      "aliases": [],
+      "code": 27
+    },
+    {
+      "type": "system",
+      "label": "妩媚御姐",
+      "id": "妩媚御姐",
+      "voice_id": "wumei_yujie",
+      "aliases": [],
+      "code": 28
+    },
+    {
+      "type": "system",
+      "label": "嗲嗲学妹",
+      "id": "嗲嗲学妹",
+      "voice_id": "diadia_xuemei",
+      "aliases": [],
+      "code": 29
+    },
+    {
+      "type": "system",
+      "label": "淡雅学姐",
+      "id": "淡雅学姐",
+      "voice_id": "danya_xuejie",
+      "aliases": [],
+      "code": 30
+    },
+    {
+      "type": "system",
+      "label": "沉稳高管",
+      "id": "沉稳高管",
+      "voice_id": "Chinese (Mandarin)_Reliable_Executive",
+      "aliases": [],
+      "code": 31
+    },
+    {
+      "type": "system",
+      "label": "新闻女声",
+      "id": "新闻女声",
+      "voice_id": "Chinese (Mandarin)_News_Anchor",
+      "aliases": [],
+      "code": 32
+    },
+    {
+      "type": "system",
+      "label": "傲娇御姐",
+      "id": "傲娇御姐",
+      "voice_id": "Chinese (Mandarin)_Mature_Woman",
+      "aliases": [],
+      "code": 33
+    },
+    {
+      "type": "system",
+      "label": "不羁青年",
+      "id": "不羁青年",
+      "voice_id": "Chinese (Mandarin)_Unrestrained_Young_Man",
+      "aliases": [],
+      "code": 34
+    },
+    {
+      "type": "system",
+      "label": "嚣张小姐",
+      "id": "嚣张小姐",
+      "voice_id": "Arrogant_Miss",
+      "aliases": [],
+      "code": 35
+    },
+    {
+      "type": "system",
+      "label": "机械战甲",
+      "id": "机械战甲",
+      "voice_id": "Robot_Armor",
+      "aliases": [],
+      "code": 36
+    },
+    {
+      "type": "system",
+      "label": "热心大婶",
+      "id": "热心大婶",
+      "voice_id": "Chinese (Mandarin)_Kind-hearted_Antie",
+      "aliases": [],
+      "code": 37
+    },
+    {
+      "type": "system",
+      "label": "港普空姐",
+      "id": "港普空姐",
+      "voice_id": "Chinese (Mandarin)_HK_Flight_Attendant",
+      "aliases": [],
+      "code": 38
+    },
+    {
+      "type": "system",
+      "label": "搞笑大爷",
+      "id": "搞笑大爷",
+      "voice_id": "Chinese (Mandarin)_Humorous_Elder",
+      "aliases": [],
+      "code": 39
+    },
+    {
+      "type": "system",
+      "label": "温润男声",
+      "id": "温润男声",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "aliases": [],
+      "code": 40
+    },
+    {
+      "type": "system",
+      "label": "温暖闺蜜",
+      "id": "温暖闺蜜",
+      "voice_id": "Chinese (Mandarin)_Warm_Bestie",
+      "aliases": [],
+      "code": 41
+    },
+    {
+      "type": "system",
+      "label": "播报男声",
+      "id": "播报男声",
+      "voice_id": "Chinese (Mandarin)_Male_Announcer",
+      "aliases": [],
+      "code": 42
+    },
+    {
+      "type": "system",
+      "label": "甜美女声",
+      "id": "甜美女声",
+      "voice_id": "Chinese (Mandarin)_Sweet_Lady",
+      "aliases": [],
+      "code": 43
+    },
+    {
+      "type": "system",
+      "label": "南方小哥",
+      "id": "南方小哥",
+      "voice_id": "Chinese (Mandarin)_Southern_Young_Man",
+      "aliases": [],
+      "code": 44
+    },
+    {
+      "type": "system",
+      "label": "阅历姐姐",
+      "id": "阅历姐姐",
+      "voice_id": "Chinese (Mandarin)_Wise_Women",
+      "aliases": [],
+      "code": 45
+    },
+    {
+      "type": "system",
+      "label": "温润青年",
+      "id": "温润青年",
+      "voice_id": "Chinese (Mandarin)_Gentle_Youth",
+      "aliases": [],
+      "code": 46
+    },
+    {
+      "type": "system",
+      "label": "温暖少女",
+      "id": "温暖少女",
+      "voice_id": "Chinese (Mandarin)_Warm_Girl",
+      "aliases": [],
+      "code": 47
+    },
+    {
+      "type": "system",
+      "label": "花甲奶奶",
+      "id": "花甲奶奶",
+      "voice_id": "Chinese (Mandarin)_Kind-hearted_Elder",
+      "aliases": [],
+      "code": 48
+    },
+    {
+      "type": "system",
+      "label": "憨憨萌兽",
+      "id": "憨憨萌兽",
+      "voice_id": "Chinese (Mandarin)_Cute_Spirit",
+      "aliases": [],
+      "code": 49
+    },
+    {
+      "type": "system",
+      "label": "电台男主播",
+      "id": "电台男主播",
+      "voice_id": "Chinese (Mandarin)_Radio_Host",
+      "aliases": [],
+      "code": 50
+    },
+    {
+      "type": "system",
+      "label": "抒情男声",
+      "id": "抒情男声",
+      "voice_id": "Chinese (Mandarin)_Lyrical_Voice",
+      "aliases": [],
+      "code": 51
+    },
+    {
+      "type": "system",
+      "label": "率真弟弟",
+      "id": "率真弟弟",
+      "voice_id": "Chinese (Mandarin)_Straightforward_Boy",
+      "aliases": [],
+      "code": 52
+    },
+    {
+      "type": "system",
+      "label": "真诚青年",
+      "id": "真诚青年",
+      "voice_id": "Chinese (Mandarin)_Sincere_Adult",
+      "aliases": [],
+      "code": 53
+    },
+    {
+      "type": "system",
+      "label": "温柔学姐",
+      "id": "温柔学姐",
+      "voice_id": "Chinese (Mandarin)_Gentle_Senior",
+      "aliases": [],
+      "code": 54
+    },
+    {
+      "type": "system",
+      "label": "嘴硬竹马",
+      "id": "嘴硬竹马",
+      "voice_id": "Chinese (Mandarin)_Stubborn_Friend",
+      "aliases": [],
+      "code": 55
+    },
+    {
+      "type": "system",
+      "label": "清脆少女",
+      "id": "清脆少女",
+      "voice_id": "Chinese (Mandarin)_Crisp_Girl",
+      "aliases": [],
+      "code": 56
+    },
+    {
+      "type": "system",
+      "label": "清澈邻家弟弟",
+      "id": "清澈邻家弟弟",
+      "voice_id": "Chinese (Mandarin)_Pure-hearted_Boy",
+      "aliases": [],
+      "code": 57
+    },
+    {
+      "type": "system",
+      "label": "软软女孩",
+      "id": "软软女孩",
+      "voice_id": "Chinese (Mandarin)_Soft_Girl",
+      "aliases": [],
+      "code": 58
+    },
+    {
+      "type": "system",
+      "label": "专业女主持",
+      "id": "专业女主持",
+      "voice_id": "Cantonese_ProfessionalHost（F)",
+      "aliases": [],
+      "code": 59
+    },
+    {
+      "type": "system",
+      "label": "温柔女声",
+      "id": "温柔女声",
+      "voice_id": "Cantonese_GentleLady",
+      "aliases": [],
+      "code": 60
+    },
+    {
+      "type": "system",
+      "label": "专业男主持",
+      "id": "专业男主持",
+      "voice_id": "Cantonese_ProfessionalHost（M)",
+      "aliases": [],
+      "code": 61
+    },
+    {
+      "type": "system",
+      "label": "活泼男声",
+      "id": "活泼男声",
+      "voice_id": "Cantonese_PlayfulMan",
+      "aliases": [],
+      "code": 62
+    },
+    {
+      "type": "system",
+      "label": "可爱女孩",
+      "id": "可爱女孩",
+      "voice_id": "Cantonese_CuteGirl",
+      "aliases": [],
+      "code": 63
+    },
+    {
+      "type": "system",
+      "label": "善良女声",
+      "id": "善良女声",
+      "voice_id": "Cantonese_KindWoman",
+      "aliases": [],
+      "code": 64
+    },
+    {
+      "type": "clone",
+      "label": "韬哥 2",
+      "id": "韬哥 2",
+      "voice_id": "duixa0bbf35f63df4efea4614b8b4f1fe475",
+      "aliases": [],
+      "code": 65
+    },
+    {
+      "type": "clone",
+      "label": "韬哥",
+      "id": "韬哥",
+      "voice_id": "duix2fe12f59d5314defad317c80827741d1",
+      "aliases": [],
+      "code": 66
+    },
+    {
+      "type": "clone",
+      "label": "土豆",
+      "id": "土豆",
+      "voice_id": "duix6b6adb56b53a406ab80e3e99c6ebdfb4",
+      "aliases": [],
+      "code": 67
+    },
+    {
+      "type": "clone",
+      "label": "歪歪",
+      "id": "歪歪",
+      "voice_id": "duix6fee94b3a71d47e0aeddd2456a9e14f1",
+      "aliases": [],
+      "code": 68
+    },
+    {
+      "type": "clone",
+      "label": "tricy",
+      "id": "tricy",
+      "voice_id": "duixa716f384deac4541a0a59510c3ffee8f",
+      "aliases": [],
+      "code": 69
+    },
+    {
+      "type": "clone",
+      "label": "huahua-2",
+      "id": "huahua-2",
+      "voice_id": "tutorhuahua1578f764d",
+      "aliases": [],
+      "code": 70
+    },
+    {
+      "type": "clone",
+      "label": "播客女",
+      "id": "播客女",
+      "voice_id": "tutor1df38978373356cbc3b6",
+      "aliases": [
+        "2 播客女"
+      ],
+      "code": 71
+    },
+    {
+      "type": "clone",
+      "label": "播客男",
+      "id": "播客男",
+      "voice_id": "tutor8bac073adef76fee6c23",
+      "aliases": [
+        "1 播客男"
+      ],
+      "code": 72
+    }
+  ]
+}

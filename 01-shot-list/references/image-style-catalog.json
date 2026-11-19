@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "source": "../风格.md",
+  "styles": [
+    {
+      "id": "keynote-black",
+      "source_heading": "Apple 发布会风信息图",
+      "visual_signature": "深黑、巨大留白、白色大标题、至多两主色相、克制柔光",
+      "suitable": "单一判断、技术亮点、总结",
+      "avoid": "密集步骤或全景清单"
+    },
+    {
+      "id": "blue-red-notebook",
+      "source_heading": "学习手册 · 蓝红笔实拍总览",
+      "visual_signature": "米白横线活页纸、蓝笔排线、暗红双椭圆、淡黄重点",
+      "suitable": "需求检查、用例组成、学习总览",
+      "avoid": "像素精确截图"
+    },
+    {
+      "id": "black-gold-map",
+      "source_heading": "知识体系 · 黑金全景学习地图",
+      "visual_signature": "黑底、金黄分区、白字、语义图解和层级路线",
+      "suitable": "架构、能力地图、课程体系",
+      "avoid": "轻量单点讲解"
+    },
+    {
+      "id": "cream-doodle",
+      "source_heading": "学习手册 · 奶油底涂鸦笔记",
+      "visual_signature": "奶油纸、自然笔迹、少量涂鸦和有机分区",
+      "suitable": "复习排查、步骤、误区对照",
+      "avoid": "正式统计图"
+    },
+    {
+      "id": "blue-green-pencil",
+      "source_heading": "学习手册 · 蓝绿彩铅分析图解",
+      "visual_signature": "蓝绿彩铅、纸纹、轻着色、分析性图注",
+      "suitable": "机制拆解、指标关系、方法分析",
+      "avoid": "无依据数值曲线"
+    },
+    {
+      "id": "screenshot-annotation",
+      "source_heading": "学习手册 · 白纸截图批注",
+      "visual_signature": "白纸底、真实截图主体、定位圈线和贴近对象的批注",
+      "suitable": "界面操作、日志与缺陷实例",
+      "avoid": "没有真实截图却声称真实界面"
+    },
+    {
+      "id": "watercolor-knowledge",
+      "source_heading": "学习手册 · 水彩知识卡片",
+      "visual_signature": "柔和水彩、纸面、主题插图、短句和清晰层次",
+      "suitable": "概念、对照、机制、场景知识",
+      "avoid": "密集工程表格"
+    },
+    {
+      "id": "ivory-diagram",
+      "source_heading": "学习手册 · 米白手绘图解",
+      "visual_signature": "米白纸、手绘线、知识插图、图文混排和留白",
+      "suitable": "清单、原理、案例批注",
+      "avoid": "纯装饰空框"
+    },
+    {
+      "id": "notebook-photo",
+      "source_heading": "真实感手写笔记本摄影",
+      "visual_signature": "真实纸页厚度与木桌、自然侧光、黑笔蓝红标记、黄荧光",
+      "suitable": "学习复盘、笔记与流程",
+      "avoid": "无人物模式下的持笔手；不允许自动加手"
+    },
+    {
+      "id": "realistic-sketch",
+      "source_heading": "真实感手绘插图风格",
+      "visual_signature": "真实比例器物、石墨交叉排线、红标题蓝正文、淡黄重点",
+      "suitable": "原理、操作、结构细节",
+      "avoid": "萌系卡通、3D图标"
+    },
+    {
+      "id": "warm-handdrawn",
+      "source_heading": "手绘风信息图模板",
+      "visual_signature": "不规则手绘线、留边填色、克制暖色、手写感；可选粉笔/牛皮纸/单色铅笔变体",
+      "suitable": "概念、步骤、学习清单",
+      "avoid": "精确工程制图"
+    }
+  ],
+  "diagram_templates": [
+    {
+      "id": "comparison",
+      "source_heading": "对比信息图模板",
+      "rule": "按同维度比较，不自动添加评分、赢家、推荐、品牌事实；可组合任一兼容画风。"
+    }
+  ],
+  "notes": [
+    "米白手绘图解重复段落归并，变体保留；原文件不改写。",
+    "三种角色style_id与本目录visual_style_id是独立维度。"
+  ]
+}

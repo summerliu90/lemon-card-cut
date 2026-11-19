@@ -1,0 +1,7 @@
+{
+  "fps": 5,
+  "time_formula": "(frame_index_zero_based + 0.5) / 5",
+  "timing_precision": "estimated_from_frames",
+  "frame_count": 246,
+  "note": "ffmpeg fps filter representative samples; motion durations remain estimates"
+}

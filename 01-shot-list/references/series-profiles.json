@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "status": "用户2026-11-18要求的三风格稳定默认；尚未新出图或做跨多文案效果验证",
+  "selection_policy": "同一style_id跨项目使用同一profile_id/version，除用户明确重选；随机仅用于不改变系列的兼容内容变体",
+  "common": {
+    "canvas": [
+      1920,
+      1080
+    ],
+    "fps": 24,
+    "layout_coordinate_system": "normalized top-left 0..1; execution position_x=2*x-1, position_y=1-2*y",
+    "title_band_y": [
+      0.05,
+      0.14
+    ],
+    "knowledge_band_y": [
+      0.18,
+      0.77
+    ],
+    "subtitle_band_y": [
+      0.85,
+      0.95
+    ],
+    "layout_family": [
+      "hero_relation",
+      "process",
+      "comparison",
+      "hierarchy",
+      "form_evidence",
+      "before_after"
+    ],
+    "primary_visual": "每个正文语义镜先设计完整知识画面/视觉隐喻；可为情境插画、具象结构或准确实例，不用小图标排队代替",
+    "hero_relation_starting_boxes": {
+      "hero": [
+        0.1,
+        0.19,
+        0.47,
+        0.77
+      ],
+      "relation": [
+        0.52,
+        0.2,
+        0.94,
+        0.75
+      ]
+    },
+    "visible_subject_fill_of_assigned_box_suggestion": [
+      0.7,
+      0.9
+    ],
+    "fill_meaning": "视觉规划建议，按实际主体包围盒与语义判断，不是自动评分或每镜硬性比例",
+    "standard_entry_s_suggestion": [
+      0.35,
+      0.6
+    ],
+    "standard_entry_distance_fraction_of_canvas_suggestion": [
+      0.02,
+      0.05
+    ],
+    "reading_hold_s_suggestion": [
+      2,
+      4
+    ],
+    "motion_sequence": [
+      "建立主体",
+      "推进知识关系或执行操作",
+      "更新正确状态",
+      "保留完整阅读结果"
+    ],
+    "text": "准确中文和数值为原生可编辑层，字幕继承production-profile",
+    "background": "继承任务选定背景，不由系列覆盖",
+    "asset_policy": "完整主插画可保留整体；只有需要分别运动的语义对象另备独立文件；不强行拆总图、不自动去白",
+    "provider": "user_configured_image_api_only",
+    "review": "先静态分镜联系表，再代表样片；工程与视觉分别验收，未做不标通过",
+    "preview_typography_px_at_1080": {
+      "chapter": [
+        56,
+        64
+      ],
+      "node": [
+        36,
+        44
+      ],
+      "annotation": [
+        30,
+        36
+      ],
+      "subtitle": "production-profile; preview56px, native字号7 separately",
+      "note": "初始范围，按实际可读性调整；预览像素不是剪映原生字号，不直接照搬"
+    },
+    "node_visual_language": {
+      "fill": "white/warm-white",
+      "border": "single consistent dark thin outline",
+      "accent": "small color marker by semantic role",
+      "text": "dark native editable text",
+      "rule": "节点的圆角/描边/字重在同一profile下固定，内容变更不重设计卡片"
+    }
+  },
+  "styles": {
+    "xiaohei": {
+      "profile_id": "series-xiaohei-v1",
+      "version": 1,
+      "prompt_file": "series-prompts/xiaohei.md",
+      "medium": "黑墨线手绘知识插画，明确物件与情境互动，白色或暖白阅读底",
+      "palette": {
+        "ink": "#171922",
+        "paper": "#FFFFFF",
+        "orange": "#E56B30",
+        "blue": "#3C78C5",
+        "risk_red": "#C74432"
+      },
+      "color_rule": "每镜通常1至2个强调色，风险红仅落在对应异常；不变成全片纯黑白空白图标",
+      "identity": "真实小黑参考为准：黑色不规则豆形、白眼、细肢；不得以文字重新设计",
+      "character_role": "检查、操作、提问、递交证据；角色与知识对象形成互动，不长期贴角",
+      "reference_policy": "小黑参考锁身份；kb-255只借鉴知识主次、完整构图和关系推进，不复制其彩色材质到角色",
+      "forbidden": [
+        "小物件排队代替知识场景",
+        "所有对象都强制单图导致场景拆散",
+        "角色固定贴角充装饰"
+      ],
+      "identity_reference_file": "series-reference-assets/xiaohei-scene-reference.png"
+    },
+    "lemoner": {
+      "profile_id": "series-lemoner-v1",
+      "version": 1,
+      "prompt_file": "series-prompts/lemoner.md",
+      "medium": "粗深棕描边、二维扁平色知识插画，圆润完整道具，轻而一致的浅色分区",
+      "palette": {
+        "ink": "#241F18",
+        "yellow": "#FFC928",
+        "blue": "#8FCBE8",
+        "paper": "#FFFFFF",
+        "risk_orange": "#E67E48"
+      },
+      "identity": "../../02-images/references/lemoner/ip-canonical.png；黄略扁宽柠檬头、短褐茎绿叶、黑圆眼镜、米色脸、浅蓝背带裤、白胸牌点工",
+      "character_role": "沿本镜语义提问、操作、检查、递资料或展示结果；不是每张技术图都塞角色",
+      "reference_policy": "标准小柠檬图锁身份和画风；kb-255只借鉴完整主视觉＋准确关系层，不能将IP水彩化或改写实3D",
+      "forbidden": [
+        "改水果去眼镜换服装",
+        "角色贴角而主体只剩文字",
+        "密集技术图强塞角色"
+      ],
+      "identity_reference_file": "../../02-images/references/lemoner/ip-canonical.png"
+    },
+    "no-character": {
+      "profile_id": "series-no-character-v1",
+      "version": 1,
+      "prompt_file": "series-prompts/no-character.md",
+      "medium": "参考kb-255的暖纸感彩色手绘知识插画：细描边、克制浅色填充、轻体积、完整具象隐喻",
+      "palette": {
+        "ink": "#38434C",
+        "paper": "#FFFCF4",
+        "blue": "#5C8EB0",
+        "ochre": "#E4B04B",
+        "orange": "#DC8256",
+        "green": "#648B72"
+      },
+      "identity": "无人物、无手部、人脸、IP、拟人形象；M=0，沿用既有明确实拍例外政策",
+      "character_role": "知识对象、流程、字段、关系和状态承担叙事",
+      "reference_policy": "series-reference-assets/kb255-funnel.png、kb255-process.png、kb255-evidence.png锁主插画材质与完整度；真实成片构图按共用标准，不把素材样本冒充整帧",
+      "forbidden": [
+        "每片随机换照片3D赛博拼贴",
+        "全片三列小图标",
+        "将无人物误解成纯文字页"
+      ]
+    }
+  },
+  "automation_boundary": "此文件由01/02/04按入口读取；现有visual_gate不自动评价新增profile字段或图像审美，须实际视觉验收"
+}

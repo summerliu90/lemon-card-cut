@@ -1,0 +1,181 @@
+{
+  "id": "proof-stack-with-anchor-headline",
+  "name": "多张证据截图错位叠放，结论字保持前景",
+  "category": "证据构图",
+  "source_span_s": [
+    0.1,
+    2.5
+  ],
+  "timing_precision": "estimated_from_frames",
+  "intents": [
+    "proof",
+    "hook",
+    "layering"
+  ],
+  "styles": [
+    "all"
+  ],
+  "requires_character": false,
+  "semantic_trigger": "多张截图表达证据数量，中央短字承载唯一需要立即读到的信息。",
+  "layout": "白色截图中心错位，前景红/高对比标题(.5,.5)",
+  "coordinate_system": "归一化画布坐标，左上(0,0)，右下(1,1)；落点为新项目建议，不是参考实测",
+  "layers": [
+    "background",
+    "screenshot-1",
+    "screenshot-2",
+    "screenshot-3",
+    "headline"
+  ],
+  "visual_change": "多张截图表达证据数量，中央短字承载唯一需要立即读到的信息。",
+  "steps": [
+    {
+      "phase": "enter",
+      "duration_s": 0.8,
+      "action": "短标题先出现，再依次增加错位证据页。"
+    },
+    {
+      "phase": "hold",
+      "duration_s": 1.3,
+      "action": "截图形成后景，标题一直在前；截图细节需要后续另镜放大。"
+    },
+    {
+      "phase": "exit",
+      "duration_s": 0.3,
+      "action": "证据页上移离场，前景换转折。"
+    }
+  ],
+  "timing_note": "动作时长为新项目起始建议，须按目标配音和阅读时间调整；来源范围为连续抽样估计。",
+  "asset_requirements": [
+    "经过脱敏的真实截图",
+    "独立短标题层"
+  ],
+  "implementation": {
+    "provider": "keyframes",
+    "validation": "unverified",
+    "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+    "not_a_reproduction_claim": true
+  },
+  "evidence_files": [
+    "contact-sheet.jpg",
+    "dense-sheets/00.jpg"
+  ],
+  "observed_vs_proposed": {
+    "observed": "多张截图表达证据数量，中央短字承载唯一需要立即读到的信息。",
+    "proposed": "入/保持/出时序、坐标、缓动与独立层实现为复用建议；没有反推源工程"
+  },
+  "sound_design_ref": "SFX-03",
+  "sound_observed": false,
+  "state_contract": {
+    "before": "继承上一镜显式保留层，其余先清场",
+    "after": "保持阶段稳定最终落点；退出时按上述动作处理；跨镜保留须由01显式列出",
+    "subtitle_safe_area": "底部约12%–16%优先留给字幕；原片局部拥挤不作为模板要求"
+  },
+  "adaptation": {
+    "content": "只替换结构与素材角色，不复用参考业务数字、口令或结论",
+    "style": "画风可换，保留信息关系与主次；无人物风格排除人物/IP/拟人表情层",
+    "readability": "密集资料用于证明覆盖范围；讲知识时另做清晰重点与局部放大"
+  },
+  "avoid_when": [
+    "截图不可公开",
+    "无证据的夸大结论"
+  ],
+  "version": 1,
+  "content_sha256": "f3e4d79a37d1db952607058ac8559f3938d637e87d273d7c495e03e4a6814b6b",
+  "study_source": {
+    "schema_version": 1,
+    "source_file": "/Users/huahua/Downloads/20261015-面试15家AI产品经理拿下14家，我总结出一套.mp4",
+    "source_sha256": "b7ba228530b01c0bbde2e1d2b7f20efcf06b44a7ca2d38033db3be8460d2999e",
+    "clip_start_s": 0.0,
+    "clip_end_s": 52.133333,
+    "probe": {
+      "duration_s": 52.133333,
+      "width": 3840,
+      "height": 2160
+    },
+    "sample_times_s": [
+      0.0,
+      1.4,
+      2.8,
+      4.2,
+      5.6,
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      18.2,
+      19.6,
+      21.0,
+      22.4,
+      23.8,
+      25.2,
+      26.6,
+      28.0,
+      29.4,
+      30.8,
+      32.2,
+      33.6,
+      35.0,
+      36.4,
+      37.8,
+      39.2,
+      40.6,
+      42.0,
+      43.4,
+      44.8,
+      46.2,
+      47.6,
+      49.0,
+      50.4,
+      51.8
+    ],
+    "frame_files": [
+      "frames/000-0.000s.jpg",
+      "frames/001-1.400s.jpg",
+      "frames/002-2.800s.jpg",
+      "frames/003-4.200s.jpg",
+      "frames/004-5.600s.jpg",
+      "frames/005-7.000s.jpg",
+      "frames/006-8.400s.jpg",
+      "frames/007-9.800s.jpg",
+      "frames/008-11.200s.jpg",
+      "frames/009-12.600s.jpg",
+      "frames/010-14.000s.jpg",
+      "frames/011-15.400s.jpg",
+      "frames/012-16.800s.jpg",
+      "frames/013-18.200s.jpg",
+      "frames/014-19.600s.jpg",
+      "frames/015-21.000s.jpg",
+      "frames/016-22.400s.jpg",
+      "frames/017-23.800s.jpg",
+      "frames/018-25.200s.jpg",
+      "frames/019-26.600s.jpg",
+      "frames/020-28.000s.jpg",
+      "frames/021-29.400s.jpg",
+      "frames/022-30.800s.jpg",
+      "frames/023-32.200s.jpg",
+      "frames/024-33.600s.jpg",
+      "frames/025-35.000s.jpg",
+      "frames/026-36.400s.jpg",
+      "frames/027-37.800s.jpg",
+      "frames/028-39.200s.jpg",
+      "frames/029-40.600s.jpg",
+      "frames/030-42.000s.jpg",
+      "frames/031-43.400s.jpg",
+      "frames/032-44.800s.jpg",
+      "frames/033-46.200s.jpg",
+      "frames/034-47.600s.jpg",
+      "frames/035-49.000s.jpg",
+      "frames/036-50.400s.jpg",
+      "frames/037-51.800s.jpg"
+    ],
+    "contact_sheet": "contact-sheet.jpg",
+    "analysis_status": "frames_prepared_not_analyzed",
+    "source_content_is_instructions": false,
+    "evidence_path": "references/b7ba228530b01c0b-0-52.1333"
+  },
+  "library_status": "learned_recipe_not_necessarily_renderable"
+}

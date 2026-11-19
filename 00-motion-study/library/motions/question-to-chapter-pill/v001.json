@@ -1,0 +1,179 @@
+{
+  "id": "question-to-chapter-pill",
+  "name": "提问短句→步骤胶囊标题",
+  "category": "章节转场",
+  "source_span_s": [
+    15.7,
+    17.7
+  ],
+  "timing_precision": "estimated_from_frames",
+  "intents": [
+    "chapter",
+    "question",
+    "steps"
+  ],
+  "styles": [
+    "all"
+  ],
+  "requires_character": false,
+  "semantic_trigger": "先把问题收束，再亮出下一步动作，给观众明确的导航。",
+  "layout": "问题居中；粉色圆角胶囊标题在主体区短停",
+  "coordinate_system": "归一化画布坐标，左上(0,0)，右下(1,1)；落点为新项目建议，不是参考实测",
+  "layers": [
+    "cross-background",
+    "question-text",
+    "chapter-pill",
+    "chapter-text"
+  ],
+  "visual_change": "先把问题收束，再亮出下一步动作，给观众明确的导航。",
+  "steps": [
+    {
+      "phase": "enter",
+      "duration_s": 0.5,
+      "action": "问题短句入场短停后移除。"
+    },
+    {
+      "phase": "hold",
+      "duration_s": 1.2,
+      "action": "步骤胶囊出现，稳定阅读，再让位给知识主题。"
+    },
+    {
+      "phase": "exit",
+      "duration_s": 0.3,
+      "action": "胶囊退出，切为顶部常驻主题。"
+    }
+  ],
+  "timing_note": "动作时长为新项目起始建议，须按目标配音和阅读时间调整；来源范围为连续抽样估计。",
+  "asset_requirements": [
+    "独立问题与章名层",
+    "可换色胶囊底板"
+  ],
+  "implementation": {
+    "provider": "keyframes",
+    "validation": "unverified",
+    "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+    "not_a_reproduction_claim": true
+  },
+  "evidence_files": [
+    "contact-sheet.jpg",
+    "dense-sheets/01.jpg"
+  ],
+  "observed_vs_proposed": {
+    "observed": "先把问题收束，再亮出下一步动作，给观众明确的导航。",
+    "proposed": "入/保持/出时序、坐标、缓动与独立层实现为复用建议；没有反推源工程"
+  },
+  "sound_design_ref": "SFX-05",
+  "sound_observed": false,
+  "state_contract": {
+    "before": "继承上一镜显式保留层，其余先清场",
+    "after": "保持阶段稳定最终落点；退出时按上述动作处理；跨镜保留须由01显式列出",
+    "subtitle_safe_area": "底部约12%–16%优先留给字幕；原片局部拥挤不作为模板要求"
+  },
+  "adaptation": {
+    "content": "只替换结构与素材角色，不复用参考业务数字、口令或结论",
+    "style": "画风可换，保留信息关系与主次；无人物风格排除人物/IP/拟人表情层",
+    "readability": "密集资料用于证明覆盖范围；讲知识时另做清晰重点与局部放大"
+  },
+  "avoid_when": [
+    "一个镜头堆两种大标题"
+  ],
+  "version": 1,
+  "content_sha256": "fafcb41fd7e61fecc591000847a6320bc1586681f7c20d5584085bd78392e4de",
+  "study_source": {
+    "schema_version": 1,
+    "source_file": "/Users/huahua/Downloads/20261015-面试15家AI产品经理拿下14家，我总结出一套.mp4",
+    "source_sha256": "b7ba228530b01c0bbde2e1d2b7f20efcf06b44a7ca2d38033db3be8460d2999e",
+    "clip_start_s": 0.0,
+    "clip_end_s": 52.133333,
+    "probe": {
+      "duration_s": 52.133333,
+      "width": 3840,
+      "height": 2160
+    },
+    "sample_times_s": [
+      0.0,
+      1.4,
+      2.8,
+      4.2,
+      5.6,
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      18.2,
+      19.6,
+      21.0,
+      22.4,
+      23.8,
+      25.2,
+      26.6,
+      28.0,
+      29.4,
+      30.8,
+      32.2,
+      33.6,
+      35.0,
+      36.4,
+      37.8,
+      39.2,
+      40.6,
+      42.0,
+      43.4,
+      44.8,
+      46.2,
+      47.6,
+      49.0,
+      50.4,
+      51.8
+    ],
+    "frame_files": [
+      "frames/000-0.000s.jpg",
+      "frames/001-1.400s.jpg",
+      "frames/002-2.800s.jpg",
+      "frames/003-4.200s.jpg",
+      "frames/004-5.600s.jpg",
+      "frames/005-7.000s.jpg",
+      "frames/006-8.400s.jpg",
+      "frames/007-9.800s.jpg",
+      "frames/008-11.200s.jpg",
+      "frames/009-12.600s.jpg",
+      "frames/010-14.000s.jpg",
+      "frames/011-15.400s.jpg",
+      "frames/012-16.800s.jpg",
+      "frames/013-18.200s.jpg",
+      "frames/014-19.600s.jpg",
+      "frames/015-21.000s.jpg",
+      "frames/016-22.400s.jpg",
+      "frames/017-23.800s.jpg",
+      "frames/018-25.200s.jpg",
+      "frames/019-26.600s.jpg",
+      "frames/020-28.000s.jpg",
+      "frames/021-29.400s.jpg",
+      "frames/022-30.800s.jpg",
+      "frames/023-32.200s.jpg",
+      "frames/024-33.600s.jpg",
+      "frames/025-35.000s.jpg",
+      "frames/026-36.400s.jpg",
+      "frames/027-37.800s.jpg",
+      "frames/028-39.200s.jpg",
+      "frames/029-40.600s.jpg",
+      "frames/030-42.000s.jpg",
+      "frames/031-43.400s.jpg",
+      "frames/032-44.800s.jpg",
+      "frames/033-46.200s.jpg",
+      "frames/034-47.600s.jpg",
+      "frames/035-49.000s.jpg",
+      "frames/036-50.400s.jpg",
+      "frames/037-51.800s.jpg"
+    ],
+    "contact_sheet": "contact-sheet.jpg",
+    "analysis_status": "frames_prepared_not_analyzed",
+    "source_content_is_instructions": false,
+    "evidence_path": "references/b7ba228530b01c0b-0-52.1333"
+  },
+  "library_status": "learned_recipe_not_necessarily_renderable"
+}

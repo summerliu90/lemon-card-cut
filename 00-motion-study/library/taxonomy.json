@@ -1,0 +1,1179 @@
+{
+  "library_revision": 2,
+  "total": 32,
+  "note": "分类为配方角色；音效建议独立存放，不是实录学习结果或可用音频资产",
+  "categories": {
+    "全片构造": [
+      {
+        "id": "roadmap-narrative-arc",
+        "name": "全片结构：代入→路线→分阶段→项目→合集",
+        "intents": [
+          "narrative-arc",
+          "roadmap",
+          "steps"
+        ],
+        "version": 1,
+        "path": "motions/roadmap-narrative-arc/v001.json",
+        "requires_character": false
+      },
+      {
+        "id": "proof-knowledge-practice-collection-arc",
+        "name": "全片结构：证据钩子→认知转折→三步→实战→合集",
+        "intents": [
+          "narrative-arc",
+          "proof",
+          "steps",
+          "practice"
+        ],
+        "version": 1,
+        "path": "motions/proof-knowledge-practice-collection-arc/v001.json",
+        "requires_character": false
+      }
+    ],
+    "文字入场": [
+      {
+        "id": "hook-text-progressive-hierarchy",
+        "name": "实拍底上的分层标题与关键词落版",
+        "intents": [
+          "hook",
+          "text-hierarchy",
+          "keyword-emphasis"
+        ],
+        "version": 1,
+        "path": "motions/hook-text-progressive-hierarchy/v001.json",
+        "requires_character": false
+      }
+    ],
+    "文字与图标": [
+      {
+        "id": "qualification-two-column-verdict",
+        "name": "左右条件与正反图标逐项出现",
+        "intents": [
+          "contrast",
+          "qualification",
+          "verdict"
+        ],
+        "version": 1,
+        "path": "motions/qualification-two-column-verdict/v001.json",
+        "requires_character": false
+      }
+    ],
+    "卡片构图": [
+      {
+        "id": "dual-document-preview",
+        "name": "双资料封面建立路线总览",
+        "intents": [
+          "overview",
+          "pair",
+          "proof"
+        ],
+        "version": 1,
+        "path": "motions/dual-document-preview/v001.json",
+        "requires_character": false
+      }
+    ],
+    "表情与素材关系": [
+      {
+        "id": "metaphor-overlay-swap",
+        "name": "资料不动，时钟与人物隐喻接力",
+        "intents": [
+          "metaphor",
+          "reaction",
+          "outcome"
+        ],
+        "version": 1,
+        "path": "motions/metaphor-overlay-swap/v001.json",
+        "requires_character": true
+      }
+    ],
+    "章节转场": [
+      {
+        "id": "chapter-reset-and-dock",
+        "name": "章节清场→大标题→小标题归位",
+        "intents": [
+          "chapter",
+          "navigation",
+          "attention-reset"
+        ],
+        "version": 1,
+        "path": "motions/chapter-reset-and-dock/v001.json",
+        "requires_character": false
+      },
+      {
+        "id": "question-to-chapter-pill",
+        "name": "提问短句→步骤胶囊标题",
+        "intents": [
+          "chapter",
+          "question",
+          "steps"
+        ],
+        "version": 1,
+        "path": "motions/question-to-chapter-pill/v001.json",
+        "requires_character": false
+      }
+    ],
+    "卡片递进": [
+      {
+        "id": "dim-old-cards-promote-new",
+        "name": "旧卡压暗留后，新卡从下方前置",
+        "intents": [
+          "progression",
+          "layering",
+          "focus-transfer"
+        ],
+        "version": 1,
+        "path": "motions/dim-old-cards-promote-new/v001.json",
+        "requires_character": false
+      }
+    ],
+    "卡片入场": [
+      {
+        "id": "pair-reveal-for-related-concepts",
+        "name": "关联概念双卡先后展开",
+        "intents": [
+          "pair",
+          "related-concepts",
+          "enumeration"
+        ],
+        "version": 1,
+        "path": "motions/pair-reveal-for-related-concepts/v001.json",
+        "requires_character": false
+      },
+      {
+        "id": "card-add-and-reflow-row",
+        "name": "卡片逐张加入，旧卡横移重排成一行",
+        "intents": [
+          "enumeration",
+          "card-reflow",
+          "comparison"
+        ],
+        "version": 1,
+        "path": "motions/card-add-and-reflow-row/v001.json",
+        "requires_character": false
+      }
+    ],
+    "文字动态": [
+      {
+        "id": "process-words-vertical-build",
+        "name": "流程词纵向逐个累积",
+        "intents": [
+          "process",
+          "sequence",
+          "text-build"
+        ],
+        "version": 1,
+        "path": "motions/process-words-vertical-build/v001.json",
+        "requires_character": false
+      }
+    ],
+    "文字强调": [
+      {
+        "id": "central-keyword-over-document",
+        "name": "资料前的单句大字强调",
+        "intents": [
+          "keyword-emphasis",
+          "takeaway",
+          "focus-transfer"
+        ],
+        "version": 1,
+        "path": "motions/central-keyword-over-document/v001.json",
+        "requires_character": false
+      }
+    ],
+    "遮罩与聚焦": [
+      {
+        "id": "circle-focus-to-full-diagram",
+        "name": "圆形局部聚焦→完整结构图",
+        "intents": [
+          "focus",
+          "detail-to-whole",
+          "diagram"
+        ],
+        "version": 1,
+        "path": "motions/circle-focus-to-full-diagram/v001.json",
+        "requires_character": false
+      }
+    ],
+    "图示标注": [
+      {
+        "id": "diagram-vertical-label-stagger",
+        "name": "结构图上多列竖标签逐条生长",
+        "intents": [
+          "annotation",
+          "components",
+          "diagram"
+        ],
+        "version": 1,
+        "path": "motions/diagram-vertical-label-stagger/v001.json",
+        "requires_character": false
+      }
+    ],
+    "概念到应用": [
+      {
+        "id": "concept-to-application-character",
+        "name": "结构图换案例，人物提示用途",
+        "intents": [
+          "application",
+          "example",
+          "metaphor"
+        ],
+        "version": 1,
+        "path": "motions/concept-to-application-character/v001.json",
+        "requires_character": true
+      }
+    ],
+    "图文关系": [
+      {
+        "id": "framework-and-role-badges",
+        "name": "框架资料双卡＋角色标签逐级加入",
+        "intents": [
+          "roles",
+          "framework",
+          "enumeration"
+        ],
+        "version": 1,
+        "path": "motions/framework-and-role-badges/v001.json",
+        "requires_character": false
+      }
+    ],
+    "成果展示": [
+      {
+        "id": "project-icon-to-proof-card",
+        "name": "项目图标→具体项目资料→结果强调",
+        "intents": [
+          "project",
+          "proof",
+          "takeaway"
+        ],
+        "version": 1,
+        "path": "motions/project-icon-to-proof-card/v001.json",
+        "requires_character": false
+      }
+    ],
+    "资料浏览": [
+      {
+        "id": "collection-main-two-support-pan",
+        "name": "一主两辅窗口：大图内部平移浏览",
+        "intents": [
+          "collection",
+          "document-pan",
+          "closing"
+        ],
+        "version": 1,
+        "path": "motions/collection-main-two-support-pan/v001.json",
+        "requires_character": false
+      },
+      {
+        "id": "fixed-window-document-scroll",
+        "name": "版式不动，主文档在裁切窗内向上滚",
+        "intents": [
+          "document-scroll",
+          "collection",
+          "long-content"
+        ],
+        "version": 1,
+        "path": "motions/fixed-window-document-scroll/v001.json",
+        "requires_character": false
+      }
+    ],
+    "证据构图": [
+      {
+        "id": "proof-stack-with-anchor-headline",
+        "name": "多张证据截图错位叠放，结论字保持前景",
+        "intents": [
+          "proof",
+          "hook",
+          "layering"
+        ],
+        "version": 1,
+        "path": "motions/proof-stack-with-anchor-headline/v001.json",
+        "requires_character": false
+      }
+    ],
+    "判断转折": [
+      {
+        "id": "verdict-cross-overlay",
+        "name": "误区大字＋否定叉号覆盖",
+        "intents": [
+          "misconception",
+          "verdict",
+          "contrast"
+        ],
+        "version": 1,
+        "path": "motions/verdict-cross-overlay/v001.json",
+        "requires_character": false
+      }
+    ],
+    "焦点转移": [
+      {
+        "id": "evidence-wall-to-takeaway",
+        "name": "证据墙退淡，结论文字前置",
+        "intents": [
+          "proof",
+          "takeaway",
+          "focus-transfer"
+        ],
+        "version": 1,
+        "path": "motions/evidence-wall-to-takeaway/v001.json",
+        "requires_character": false
+      }
+    ],
+    "场景与人物": [
+      {
+        "id": "blurred-scenario-with-explainer",
+        "name": "情境实拍模糊后叠讲解人物与问号",
+        "intents": [
+          "scenario",
+          "question",
+          "metaphor"
+        ],
+        "version": 1,
+        "path": "motions/blurred-scenario-with-explainer/v001.json",
+        "requires_character": true
+      }
+    ],
+    "素材切换": [
+      {
+        "id": "interface-demo-bridge",
+        "name": "工具屏录作能力与实践之间的桥段",
+        "intents": [
+          "demo",
+          "practice",
+          "breathing-space"
+        ],
+        "version": 1,
+        "path": "motions/interface-demo-bridge/v001.json",
+        "requires_character": false
+      }
+    ],
+    "章节导航": [
+      {
+        "id": "pill-to-pinned-topic",
+        "name": "步骤标题切为顶部常驻主题",
+        "intents": [
+          "navigation",
+          "topic",
+          "enumeration"
+        ],
+        "version": 1,
+        "path": "motions/pill-to-pinned-topic/v001.json",
+        "requires_character": false
+      }
+    ],
+    "卡片转入": [
+      {
+        "id": "blurred-card-unfold-settle",
+        "name": "新卡以模糊形变进入，随后展开落稳",
+        "intents": [
+          "card-entry",
+          "focus-transfer",
+          "unfold"
+        ],
+        "version": 1,
+        "path": "motions/blurred-card-unfold-settle/v001.json",
+        "requires_character": false
+      }
+    ],
+    "表情与节奏": [
+      {
+        "id": "reaction-on-stable-knowledge-group",
+        "name": "知识卡组稳定后插一次反应贴纸",
+        "intents": [
+          "reaction",
+          "warning",
+          "misconception"
+        ],
+        "version": 1,
+        "path": "motions/reaction-on-stable-knowledge-group/v001.json",
+        "requires_character": true
+      }
+    ],
+    "总览到细分": [
+      {
+        "id": "tool-overview-to-card-cluster",
+        "name": "工具分类总览→分专题多卡集合",
+        "intents": [
+          "overview",
+          "taxonomy",
+          "layering",
+          "card-cluster"
+        ],
+        "version": 1,
+        "path": "motions/tool-overview-to-card-cluster/v001.json",
+        "requires_character": false
+      }
+    ],
+    "实拍节奏": [
+      {
+        "id": "live-practice-breathing-cut",
+        "name": "知识卡→操作实拍→项目卡→工作情境",
+        "intents": [
+          "practice",
+          "breathing-space",
+          "project",
+          "cutaway"
+        ],
+        "version": 1,
+        "path": "motions/live-practice-breathing-cut/v001.json",
+        "requires_character": false
+      }
+    ],
+    "资料转场": [
+      {
+        "id": "page-curl-to-three-window-collection",
+        "name": "卷页状形变展开成一主两辅资料窗",
+        "intents": [
+          "collection",
+          "page-curl",
+          "transition"
+        ],
+        "version": 1,
+        "path": "motions/page-curl-to-three-window-collection/v001.json",
+        "requires_character": false
+      }
+    ],
+    "结尾强调": [
+      {
+        "id": "closing-sticker-single-punch",
+        "name": "稳定合集前，单个短词收尾",
+        "intents": [
+          "closing",
+          "callout",
+          "keyword-emphasis"
+        ],
+        "version": 1,
+        "path": "motions/closing-sticker-single-punch/v001.json",
+        "requires_character": false
+      }
+    ]
+  },
+  "families": {
+    "全片构造与节奏": [
+      {
+        "id": "roadmap-narrative-arc",
+        "name": "全片结构：代入→路线→分阶段→项目→合集",
+        "version": 1,
+        "path": "motions/roadmap-narrative-arc/v001.json",
+        "content_sha256": "90660563915545a0ae6940902fee7a4f0fdcf07bf9b5f13f112fa0e87f371038",
+        "intents": [
+          "narrative-arc",
+          "roadmap",
+          "steps"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "proof-knowledge-practice-collection-arc",
+        "name": "全片结构：证据钩子→认知转折→三步→实战→合集",
+        "version": 1,
+        "path": "motions/proof-knowledge-practice-collection-arc/v001.json",
+        "content_sha256": "ed091bf013e93c3404134534653fbed14b9c4fce1b1e57a4b5cac0394634c33c",
+        "intents": [
+          "narrative-arc",
+          "proof",
+          "steps",
+          "practice"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "interface-demo-bridge",
+        "name": "工具屏录作能力与实践之间的桥段",
+        "version": 1,
+        "path": "motions/interface-demo-bridge/v001.json",
+        "content_sha256": "67f675546f554d9e7b8cc25f92c0cdf9668b6cac57e8e2099ba205d537c5b016",
+        "intents": [
+          "demo",
+          "practice",
+          "breathing-space"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "unresolved",
+          "validation": "unverified",
+          "strategy": "形变或屏录镜头可识别，具体插件/执行器尚未验证，不猜原生资源ID",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "live-practice-breathing-cut",
+        "name": "知识卡→操作实拍→项目卡→工作情境",
+        "version": 1,
+        "path": "motions/live-practice-breathing-cut/v001.json",
+        "content_sha256": "21aa6a01880ded9954d3ac355571c6b75676b5504260fb610b335293473fb30c",
+        "intents": [
+          "practice",
+          "breathing-space",
+          "project",
+          "cutaway"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      }
+    ],
+    "章节导航与切换": [
+      {
+        "id": "chapter-reset-and-dock",
+        "name": "章节清场→大标题→小标题归位",
+        "version": 1,
+        "path": "motions/chapter-reset-and-dock/v001.json",
+        "content_sha256": "528b155014c3c18fde42b96a81e48465e7231ee5221fc16a8cc7ad0f474e4cea",
+        "intents": [
+          "chapter",
+          "navigation",
+          "attention-reset"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "question-to-chapter-pill",
+        "name": "提问短句→步骤胶囊标题",
+        "version": 1,
+        "path": "motions/question-to-chapter-pill/v001.json",
+        "content_sha256": "fafcb41fd7e61fecc591000847a6320bc1586681f7c20d5584085bd78392e4de",
+        "intents": [
+          "chapter",
+          "question",
+          "steps"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "pill-to-pinned-topic",
+        "name": "步骤标题切为顶部常驻主题",
+        "version": 1,
+        "path": "motions/pill-to-pinned-topic/v001.json",
+        "content_sha256": "b85e66bb228d1bdf54fbc416d532adc5ac79e2b967d60fd48096530415d2cbc3",
+        "intents": [
+          "navigation",
+          "topic",
+          "enumeration"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      }
+    ],
+    "卡片入场、重排与递进": [
+      {
+        "id": "dual-document-preview",
+        "name": "双资料封面建立路线总览",
+        "version": 1,
+        "path": "motions/dual-document-preview/v001.json",
+        "content_sha256": "6b5e76eb0776e0a952a0a9508e3e3e3e2e05cd33d4ff7c90ab1861a44cac028c",
+        "intents": [
+          "overview",
+          "pair",
+          "proof"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "pair-reveal-for-related-concepts",
+        "name": "关联概念双卡先后展开",
+        "version": 1,
+        "path": "motions/pair-reveal-for-related-concepts/v001.json",
+        "content_sha256": "e4aaba558e8fdd37799186594818564916cd331c2c9623342cfb935ddcf27fcf",
+        "intents": [
+          "pair",
+          "related-concepts",
+          "enumeration"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "dim-old-cards-promote-new",
+        "name": "旧卡压暗留后，新卡从下方前置",
+        "version": 1,
+        "path": "motions/dim-old-cards-promote-new/v001.json",
+        "content_sha256": "4d4d60e827d547bc545c04bb188c3779cf058a216218b943dd92360ea35bb2ce",
+        "intents": [
+          "progression",
+          "layering",
+          "focus-transfer"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "card-add-and-reflow-row",
+        "name": "卡片逐张加入，旧卡横移重排成一行",
+        "version": 1,
+        "path": "motions/card-add-and-reflow-row/v001.json",
+        "content_sha256": "e050a84a32e16024f49d96c29b36401671f430cc0ae7931ac5cbab072b4fd04f",
+        "intents": [
+          "enumeration",
+          "card-reflow",
+          "comparison"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "blurred-card-unfold-settle",
+        "name": "新卡以模糊形变进入，随后展开落稳",
+        "version": 1,
+        "path": "motions/blurred-card-unfold-settle/v001.json",
+        "content_sha256": "9eaa8ec512f90b86de51eef6d7da6a4851ccfe0d95d1bcf96c85b7692c4e87bb",
+        "intents": [
+          "card-entry",
+          "focus-transfer",
+          "unfold"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "unresolved",
+          "validation": "unverified",
+          "strategy": "形变或屏录镜头可识别，具体插件/执行器尚未验证，不猜原生资源ID",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "tool-overview-to-card-cluster",
+        "name": "工具分类总览→分专题多卡集合",
+        "version": 1,
+        "path": "motions/tool-overview-to-card-cluster/v001.json",
+        "content_sha256": "4f741e8bc2b972f9dde90c0614020fbf22bfd5b0f6af0419bba42d6f067458ad",
+        "intents": [
+          "overview",
+          "taxonomy",
+          "layering",
+          "card-cluster"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      }
+    ],
+    "文字、图标与重点强调": [
+      {
+        "id": "hook-text-progressive-hierarchy",
+        "name": "实拍底上的分层标题与关键词落版",
+        "version": 1,
+        "path": "motions/hook-text-progressive-hierarchy/v001.json",
+        "content_sha256": "25ac227f2445643b6bab1891ae7af324673daf76a466f8504242afcac1a4860b",
+        "intents": [
+          "hook",
+          "text-hierarchy",
+          "keyword-emphasis"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "qualification-two-column-verdict",
+        "name": "左右条件与正反图标逐项出现",
+        "version": 1,
+        "path": "motions/qualification-two-column-verdict/v001.json",
+        "content_sha256": "2d8e45746dbbed3ccf42bcf4e1ea5b1ed5c915f17e1e182e0cfdd3a15e826882",
+        "intents": [
+          "contrast",
+          "qualification",
+          "verdict"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "process-words-vertical-build",
+        "name": "流程词纵向逐个累积",
+        "version": 1,
+        "path": "motions/process-words-vertical-build/v001.json",
+        "content_sha256": "35948f4219e5f5c88cb863fa363cd79e1078d08276ece6e12b8d686c1ffd91a8",
+        "intents": [
+          "process",
+          "sequence",
+          "text-build"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "central-keyword-over-document",
+        "name": "资料前的单句大字强调",
+        "version": 1,
+        "path": "motions/central-keyword-over-document/v001.json",
+        "content_sha256": "100c6710ff988124dd68c46fb4bdc4d1b3adfc4d417664c6f6cd839b55d5076a",
+        "intents": [
+          "keyword-emphasis",
+          "takeaway",
+          "focus-transfer"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "verdict-cross-overlay",
+        "name": "误区大字＋否定叉号覆盖",
+        "version": 1,
+        "path": "motions/verdict-cross-overlay/v001.json",
+        "content_sha256": "6bb0120a69aca394968eeef332386b4cb5d7e213a8232dca8207d322e8137f15",
+        "intents": [
+          "misconception",
+          "verdict",
+          "contrast"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "evidence-wall-to-takeaway",
+        "name": "证据墙退淡，结论文字前置",
+        "version": 1,
+        "path": "motions/evidence-wall-to-takeaway/v001.json",
+        "content_sha256": "a0a497da422913750e98de3feaf94aa3235b5dc45d466f2f99e3978584b8056c",
+        "intents": [
+          "proof",
+          "takeaway",
+          "focus-transfer"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "closing-sticker-single-punch",
+        "name": "稳定合集前，单个短词收尾",
+        "version": 1,
+        "path": "motions/closing-sticker-single-punch/v001.json",
+        "content_sha256": "eca9b0b4ef117fbd8bb9b5cbbd7a713986283d80d76458182a3b8287b058fda8",
+        "intents": [
+          "closing",
+          "callout",
+          "keyword-emphasis"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      }
+    ],
+    "图示聚焦与语义标注": [
+      {
+        "id": "circle-focus-to-full-diagram",
+        "name": "圆形局部聚焦→完整结构图",
+        "version": 1,
+        "path": "motions/circle-focus-to-full-diagram/v001.json",
+        "content_sha256": "ba343c50337dad1e7bb2b0e690b2c82e88a848bfabc14b4a82b80f8233e6f0fa",
+        "intents": [
+          "focus",
+          "detail-to-whole",
+          "diagram"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "diagram-vertical-label-stagger",
+        "name": "结构图上多列竖标签逐条生长",
+        "version": 1,
+        "path": "motions/diagram-vertical-label-stagger/v001.json",
+        "content_sha256": "00011ae6eb1a0f44c895d80edb2c9422716c6b6ff57b5bc477a1eed206a0e07a",
+        "intents": [
+          "annotation",
+          "components",
+          "diagram"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "framework-and-role-badges",
+        "name": "框架资料双卡＋角色标签逐级加入",
+        "version": 1,
+        "path": "motions/framework-and-role-badges/v001.json",
+        "content_sha256": "c73db5df1375c5693e69fc69ae342a373a30091cbbebc054f50405ec2711d794",
+        "intents": [
+          "roles",
+          "framework",
+          "enumeration"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      }
+    ],
+    "人物、隐喻与反应": [
+      {
+        "id": "metaphor-overlay-swap",
+        "name": "资料不动，时钟与人物隐喻接力",
+        "version": 1,
+        "path": "motions/metaphor-overlay-swap/v001.json",
+        "content_sha256": "7f133101817afa557301a185f506cdba95d52ad64440f00fed0ff27029cdc1f3",
+        "intents": [
+          "metaphor",
+          "reaction",
+          "outcome"
+        ],
+        "styles": [
+          "xiaohei",
+          "lemoner"
+        ],
+        "requires_character": true,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "concept-to-application-character",
+        "name": "结构图换案例，人物提示用途",
+        "version": 1,
+        "path": "motions/concept-to-application-character/v001.json",
+        "content_sha256": "a11d6dc5e76606bb0e39672961658b9f1204e8c825f5b7f3756699dc10d6ee84",
+        "intents": [
+          "application",
+          "example",
+          "metaphor"
+        ],
+        "styles": [
+          "xiaohei",
+          "lemoner"
+        ],
+        "requires_character": true,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "blurred-scenario-with-explainer",
+        "name": "情境实拍模糊后叠讲解人物与问号",
+        "version": 1,
+        "path": "motions/blurred-scenario-with-explainer/v001.json",
+        "content_sha256": "81e975c1f67729a4a3f7f0203e8f2338cbca48684fe8040a78337407ebbcd9dc",
+        "intents": [
+          "scenario",
+          "question",
+          "metaphor"
+        ],
+        "styles": [
+          "xiaohei",
+          "lemoner"
+        ],
+        "requires_character": true,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "reaction-on-stable-knowledge-group",
+        "name": "知识卡组稳定后插一次反应贴纸",
+        "version": 1,
+        "path": "motions/reaction-on-stable-knowledge-group/v001.json",
+        "content_sha256": "7e59715eacffd16a6d6e432e1068200845eb428e113721d9926f0bd1771a8302",
+        "intents": [
+          "reaction",
+          "warning",
+          "misconception"
+        ],
+        "styles": [
+          "xiaohei",
+          "lemoner"
+        ],
+        "requires_character": true,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      }
+    ],
+    "证据与作品呈现": [
+      {
+        "id": "proof-stack-with-anchor-headline",
+        "name": "多张证据截图错位叠放，结论字保持前景",
+        "version": 1,
+        "path": "motions/proof-stack-with-anchor-headline/v001.json",
+        "content_sha256": "f3e4d79a37d1db952607058ac8559f3938d637e87d273d7c495e03e4a6814b6b",
+        "intents": [
+          "proof",
+          "hook",
+          "layering"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "project-icon-to-proof-card",
+        "name": "项目图标→具体项目资料→结果强调",
+        "version": 1,
+        "path": "motions/project-icon-to-proof-card/v001.json",
+        "content_sha256": "eaa77cb835d5a3bba83ba84924a26fa0e181baeca8b99bf306eabbdf4d99de63",
+        "intents": [
+          "project",
+          "proof",
+          "takeaway"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      }
+    ],
+    "资料窗口、浏览与合集": [
+      {
+        "id": "collection-main-two-support-pan",
+        "name": "一主两辅窗口：大图内部平移浏览",
+        "version": 1,
+        "path": "motions/collection-main-two-support-pan/v001.json",
+        "content_sha256": "c667ea64a92e4ee1e203be496fbab8ff6eabe3fcb59e6a263d2df5647c4bca96",
+        "intents": [
+          "collection",
+          "document-pan",
+          "closing"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "page-curl-to-three-window-collection",
+        "name": "卷页状形变展开成一主两辅资料窗",
+        "version": 1,
+        "path": "motions/page-curl-to-three-window-collection/v001.json",
+        "content_sha256": "0ee4bfbd28cc9f95e27972db0a27ad718895e440e15f79fc9fc7c56896a41afd",
+        "intents": [
+          "collection",
+          "page-curl",
+          "transition"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "unresolved",
+          "validation": "unverified",
+          "strategy": "形变或屏录镜头可识别，具体插件/执行器尚未验证，不猜原生资源ID",
+          "not_a_reproduction_claim": true
+        }
+      },
+      {
+        "id": "fixed-window-document-scroll",
+        "name": "版式不动，主文档在裁切窗内向上滚",
+        "version": 1,
+        "path": "motions/fixed-window-document-scroll/v001.json",
+        "content_sha256": "31ddfd596083c259d33d7ee8d6df640b90bd3765963f40dce3c961b66096a1ae",
+        "intents": [
+          "document-scroll",
+          "collection",
+          "long-content"
+        ],
+        "styles": [
+          "all"
+        ],
+        "requires_character": false,
+        "implementation": {
+          "provider": "keyframes",
+          "validation": "unverified",
+          "strategy": "独立图层与关键帧近似；涉及遮罩时须由执行器验证支持",
+          "not_a_reproduction_claim": true
+        }
+      }
+    ]
+  }
+}
