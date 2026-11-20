@@ -7,6 +7,9 @@ node_modules/
 .env
 .env.*
 !.env.example
+.image-channel-cursor
+.image-channel-cursor.lock
+.image-channel-cursor.tmp
 *.log
 .output/
 outputs/
